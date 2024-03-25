@@ -1,5 +1,5 @@
 /* header */
-header {
+ header {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -7,7 +7,7 @@ header {
 }
 
 header a {
-    decoration: none;
+    text-decoration: none;
     color: inherit;
 }
 
@@ -23,6 +23,9 @@ main {
 }
 
 /* footer */
+footer {
+    bottom: 0;
+}
 #social-networks {
     text-align: center;
     padding: 20px 0;
