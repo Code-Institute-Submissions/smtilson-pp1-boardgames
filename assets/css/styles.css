@@ -18,9 +18,10 @@ body {
     z-index: 99;
     width: 100%;
     padding: 0 1rem;
-    /* display: flex; */
+    display: flex;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: center;
+    border-bottom: 3px solid;
     /*still need color bottom border, or would I prefer box shadow?*/
 }
 
@@ -28,6 +29,8 @@ body {
     white-space: nowrap;
     text-transform: capitalize;
     letter-spacing: 3px;
+    min-height: 1.5em;
+    margin-top: .25em;
 }
 
 header a {
@@ -45,6 +48,10 @@ header a {
     list-style-type: none;
 }
 
+#nav-menu > li {
+    margin-bottom: .5em;
+}
+
 nav {
     position: absolute;
     border-bottom: 3px solid;
@@ -52,6 +59,19 @@ nav {
     left: 0;
     padding-left: 1rem;
     display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 /* main */
 main {
