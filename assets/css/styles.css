@@ -25,6 +25,8 @@ body {
     /*still need color bottom border, or would I prefer box shadow?*/
 }
 
+/* I think this could fill the space a bit better.
+    Font still needs to be chosen. */
 #logo {
     white-space: nowrap;
     text-transform: capitalize;
@@ -77,7 +79,8 @@ nav {
 main {
     /* sticks footer to bottom */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 65px;
+    padding-left: .75rem;
 }
 
 /* footer */
@@ -95,4 +98,54 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #nav-menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* main content */
+    main {
+        /* push main content down */
+        margin-top: 79px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+}
+
+/* media query: laptop and larger (992px)*/
+/* I changed the number of pixels since my screen has a smaller width.
+   I am not sure what this media query should be set to.*/
+@media screen and (min-width: 916px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
