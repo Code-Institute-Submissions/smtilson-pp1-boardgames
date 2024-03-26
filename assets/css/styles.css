@@ -36,18 +36,27 @@ header a {
     color: #3a3a3a;
 }
 
-header>h1 {
+#nav-toggle-label {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-/* I think this could fill the space a bit better.
-    Font still needs to be chosen. */
+/* Font still needs to be chosen. */
 #logo {
     white-space: nowrap;
     text-transform: capitalize;
     letter-spacing: 3px;
     min-height: 1.5em;
     margin-top: .25em;
+}
+
+#tag-line {
+    letter-spacing: .5px;
+    min-height: 1.5em;
+    margin-bottom: .25em;
 }
 
 .active {
@@ -85,6 +94,8 @@ nav {
 #nav-toggle {
     display: none;
 }
+
+#nav-toggle-label {}
 
 /* main */
 main {

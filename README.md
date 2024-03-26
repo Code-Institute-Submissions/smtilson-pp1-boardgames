@@ -43,4 +43,9 @@ The footer contains (so far) links to social media sites. These open in new tabs
 guided set up step by step process for deployment
 
 ## credits
+
+#### Inspiration
+This project was influenced by the Love Running walkthrough project. I learned many things there.
+In particular
+- the CSS method for creating a dropdown menu
 citation of things used
