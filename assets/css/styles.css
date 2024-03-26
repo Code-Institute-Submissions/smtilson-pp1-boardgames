@@ -59,6 +59,14 @@ header a {
     margin-bottom: .25em;
 }
 
+#nav-toggle-icon {
+    position: relative;
+    left: 40vw;
+    top: -9vh;
+    font-size: 225%;
+    margin-bottom: -2.5rem;
+}
+
 .active {
     border: 1.5px solid #3a3a3a;
     padding: 1px 5px;
@@ -95,13 +103,11 @@ nav {
     display: none;
 }
 
-#nav-toggle-label {}
-
 /* main */
 main {
     /* sticks footer to bottom */
     flex: 1 0 auto;
-    margin-top: 65px;
+    margin-top: 95px;
     padding-left: .75rem;
 }
 
@@ -176,6 +182,9 @@ main {
         margin: 0 0.5rem;
     }
 
+    #nav-toggle-icon {
+        display: none;
+    }
     /* main content */
     main {
         /* push main content down */
