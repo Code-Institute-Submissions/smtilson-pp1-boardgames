@@ -3,15 +3,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #3b3b3b;
+    /*background-color: #3b3b3b;*/
 }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #36454F;
 }
 
+* * {
+    background-color: inherit;
+}
 /* header */
  header {
     position: fixed;
@@ -23,12 +27,17 @@ body {
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 3px solid;
+    
     /*still need color bottom border, or would I prefer box shadow?*/
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+header > h1 {
+    width: 100vw;
 }
 /* I think this could fill the space a bit better.
     Font still needs to be chosen. */
@@ -56,12 +65,14 @@ header a {
 
 nav {
     position: absolute;
+    border-top: 3px solid;
     border-bottom: 3px solid;
     width: 100%;
     left: 0;
     padding-left: 1rem;
     display: none;
     top: 100%;
+    background-color: #E5E4E2;
 }
 
 #nav-toggle:checked~nav {
@@ -72,9 +83,6 @@ nav {
     display: none;
 }
 
-.nav-toggle-label {
-    font-size: 2rem;
-}
 /* main */
 main {
     /* sticks footer to bottom */
@@ -84,7 +92,6 @@ main {
 }
 
 /* footer */
-
 
 #social-networks {
     border-top: 3px solid;
@@ -118,20 +125,15 @@ main {
         position: relative;
         border: 3px solid;
         border-radius: 10px;
-        box-shadow: none;
         width: fit-content;
         padding: .35rem .7rem;
-        background-color: #000000;
+        background-color: #E5E4E2;
         justify-content: space-around;
-    }
-
-    nav * {
-        background-color: inherit;
     }
 
     #nav-menu, #social-networks {
         display: flex;
-        background-color:#000000;
+        background-color:#E5E4E2;
         /* this seems to address the issue, but there should be a more responsive way */
        /* margin-top: 5px;*/
     }
@@ -147,22 +149,13 @@ main {
         padding: 1rem 1rem 1rem 1rem;
     }
 
-    #social-networks * {
-        background-color: inherit;
-    }
 
     #social-networks i {
         padding: 0rem 1rem;
     }
 
-    
-
-    .nav-toggle-label {
-        display: none;
-    }
-
     #logo {
-        font-size: 280%;
+        font-size: 3rem;
         line-height: 75px;
         margin: 0 0.5rem;
     }
