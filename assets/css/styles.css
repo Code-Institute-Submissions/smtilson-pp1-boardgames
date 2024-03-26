@@ -123,11 +123,30 @@ nav {
 main {
     /* sticks footer to bottom */
     flex: 1 0 auto;
-    margin-top: 105px;
+    margin-top: 15vh;
     padding-left: .75rem;
+    align-items: center;
 }
 
-/* footer */
+.content-div, .content-p {
+    display: flex;
+    border: 3px solid #3a3a3a;
+    border-radius: 10px;
+    max-width: 80vw;
+    margin: 2vh;
+    padding: .35rem .7rem;
+    justify-content: space-around;
+}
+
+.content-div {
+    background-color: #E5E4E2;
+}
+
+.content-p {
+    background-color: #36454F;
+}
+
+/* footer 767.81px*/
 
 #social-networks {
     border-top: 3px solid #3a3a3a;
@@ -172,27 +191,12 @@ main {
         justify-content: space-around;
     }
 
-    #nav-menu,
-    #social-networks {
+    #nav-menu {
         display: flex;
         background-color: #E5E4E2;
-        /* this seems to address the issue, but there should be a more responsive way */
-        /* margin-top: 5px;*/
     }
 
     #nav-menu>li {
-        padding: 0rem 1rem;
-    }
-
-    #social-networks {
-        display: flex;
-        margin: 1em;
-        padding: 1rem 1rem 1rem 1rem;
-        min-width: 50vw;
-    }
-
-
-    #social-networks i {
         padding: 0rem 1rem;
     }
 
@@ -218,7 +222,41 @@ main {
     /* main content */
     main {
         /* push main content down */
-        margin-top: 79px;
+        margin-top: 155px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-div, .content-p {
+        display: flex;
+        border: 3px solid #3a3a3a;
+        border-radius: 10px;
+        max-width: 80vw;
+        margin: 2vh;
+        padding: .35rem .7rem;
+        justify-content: space-around;
+    }
+
+    .content-div {
+        background-color: #E5E4E2;
+    }
+
+    .content-p {
+        background-color: #36454F;
+    }
+
+    /* footer */
+    #social-networks {
+        display: flex;
+        /* I don't think this matters 
+        position: relative; */
+        background-color: #E5E4E2;
+        margin: 1em;
+        padding: 1rem;
+        min-width: 50vw;
+        border: 3px solid #3a3a3a;
+        border-radius: 10px;
+        justify-content: space-around;
     }
 }
 
