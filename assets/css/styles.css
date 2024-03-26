@@ -19,12 +19,17 @@ body {
     width: 100%;
     padding: 0 1rem;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 3px solid;
     /*still need color bottom border, or would I prefer box shadow?*/
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 /* I think this could fill the space a bit better.
     Font still needs to be chosen. */
 #logo {
@@ -33,11 +38,6 @@ body {
     letter-spacing: 3px;
     min-height: 1.5em;
     margin-top: .25em;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
 }
 
 .active {
@@ -85,6 +85,7 @@ main {
 
 /* footer */
 
+
 #social-networks {
     border-top: 3px solid;
     text-align: center;
@@ -102,22 +103,59 @@ main {
 
 @media screen and (min-width: 768px) {
 
+    header {
+        border-bottom: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
     /* Header */
-    nav {
-        display: block;
+    nav, #social-networks {
+        display: flex;
         position: relative;
+        border: 3px solid;
+        border-radius: 10px;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding: .35rem .7rem;
+        background-color: #000000;
+        justify-content: space-around;
     }
 
-    #nav-menu {
+    nav * {
+        background-color: inherit;
+    }
+
+    #nav-menu, #social-networks {
         display: flex;
+        background-color:#000000;
+        /* this seems to address the issue, but there should be a more responsive way */
+       /* margin-top: 5px;*/
     }
 
-    #menu>li {
-        padding-left: 1rem;
+    #nav-menu > li{
+        margin-top: .5em;
+        padding: 0rem 1rem;
     }
+
+    #social-networks {
+        display: flex;
+        margin: 1em;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    #social-networks * {
+        background-color: inherit;
+    }
+
+    #social-networks i {
+        padding: 0rem 1rem;
+    }
+
+    
 
     .nav-toggle-label {
         display: none;
@@ -145,7 +183,7 @@ main {
 /* I changed the number of pixels since my screen has a smaller width.
    I am not sure what this media query should be set to.*/
 @media screen and (min-width: 916px) {
-    #menu a:hover {
+    #nav-menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
