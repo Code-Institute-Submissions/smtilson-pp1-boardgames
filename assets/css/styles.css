@@ -13,8 +13,10 @@ body {
     background-color: #36454F;
 }
 
+/* causes everything to inherit bgc from its parent */
 * * {
     background-color: inherit;
+    color: inherit
 }
 /* header */
  header {
