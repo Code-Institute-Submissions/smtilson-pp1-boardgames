@@ -298,8 +298,10 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
+        /* not sure if this is the right factor that I want */
+        gap: 1rem;
     }
-
+    /* resizes game cover image to something fixed */
     .game-cover {
         height: 12em;
         width: 12em;
