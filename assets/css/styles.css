@@ -147,8 +147,8 @@ main {
 }
 
 .game-cover {
-    height: 13em;
-    width: 13em;
+    height: 65vw;
+    width: 65vw;
     margin-top: 2em;
     margin-bottom: 2em;
     /* Makes the square image into a circle */
@@ -232,7 +232,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-
+    /* Header */
     header {
         border-bottom: none;
         display: flex;
@@ -241,12 +241,6 @@ footer {
         flex-direction: column;
     }
 
-    footer {
-        display: flex;
-        justify-content: center;
-    }
-
-    /* Header */
     nav,
     #social-networks {
         display: flex;
@@ -299,7 +293,15 @@ footer {
         justify-content: center;
     }
 
+    .game-cover {
+        height: 12em;
+        width: 12em;
+    }
     /* footer */
+    footer {
+        display: flex;
+        justify-content: center;
+    }
     #social-networks {
         display: flex;
         /*background-color: #E5E4E2;*/
