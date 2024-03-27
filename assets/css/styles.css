@@ -137,21 +137,43 @@ main {
     margin-bottom: 15vh;
 }
 
-.content-container {
+.ccontainer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 
-.content-box {
+.box {
     /*border: 3px solid #3a3a3a;*/
-    border: 3px solid white;
-    border-radius: 10px;
     /*background-color: #E5E4E2;*/
     background-color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.cheader {
+    margin: 1vh;
+    margin-bottom: -.5vh;
+    position: relative;
+    left: 3vw;
+    width: fit-content;
+    padding: .3rem 1rem .3rem 1rem;
+}
+
+.content {
     margin: 2vh;
     max-width: 80vw;
     padding: .7rem .7rem 2rem .7rem;
+    align-self: center;
+}
+
+.clinks {
+    list-style-type: none;
+    display: flex;
+    /*width: fit-content;*/
+    justify-content: space-evenly;
+    margin-bottom: 3vh;
 }
 /*
 .content-div, .content-p {
@@ -173,7 +195,7 @@ main {
 
 footer {
     position: fixed;
-    bottom:0;
+    bottom: 0;
     width: 100vw;
     z-index: 99;
 }
@@ -191,8 +213,8 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-   /* color: #3a3a3a;*/
-   color: white;
+    /* color: #3a3a3a;*/
+    color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -244,8 +266,9 @@ footer {
         margin: 0 0.5rem;
     }
 
-    #tag-line, #logo {
-        display:flex;
+    #tag-line,
+    #logo {
+        display: flex;
         justify-content: center;
     }
 
@@ -264,8 +287,6 @@ footer {
     /* footer */
     #social-networks {
         display: flex;
-        /* I don't think this matters 
-        position: relative; */
         /*background-color: #E5E4E2;*/
         background-color: black;
         margin: 1em;
@@ -296,5 +317,3 @@ footer {
         border-radius: 5px;
     }*/
 }
-
-
