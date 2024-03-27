@@ -8,8 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #36454F;
-    color: #3a3a3a;
+    /* background-color: #36454F; */
+    background-color: black;
+    /*color: #3a3a3a;*/
+    color: white;
 }
 
 /* causes everything to inherit bgc from its parent */
@@ -26,12 +28,14 @@ header {
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
-    border-bottom: 3px solid #3a3a3a;
+    /*border-bottom: 3px solid #3a3a3a;*/
+    border-bottom: 3px solid white;
 }
 
 header a {
     text-decoration: none;
-    color: #3a3a3a;
+    /*color: #3a3a3a;*/
+    color: white;
 }
 
 #nav-toggle-label {
@@ -82,7 +86,8 @@ header a {
 }
 
 .active {
-    border: 1.5px solid #3a3a3a;
+    /*border: 1.5px solid #3a3a3a;*/
+    border: 1.5px solid white;
     padding: 1px 5px;
     border-radius: 5px;
 }
@@ -99,8 +104,10 @@ header a {
 
 nav {
     position: absolute;
-    border-top: 3px solid #3a3a3a;
-    border-bottom: 3px solid #3a3a3a;
+    /*border-top: 3px solid #3a3a3a;
+    border-bottom: 3px solid #3a3a3a;*/
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
     width: 100%;
     left: 0;
     padding-left: 1rem;
@@ -108,7 +115,8 @@ nav {
     padding-bottom: .35em;
     display: none;
     top: 100%;
-    background-color: #E5E4E2;
+    /*background-color: #E5E4E2;*/
+    background-color: black;
 }
 
 #nav-toggle:checked~nav {
@@ -136,9 +144,11 @@ main {
 }
 
 .content-box {
-    border: 3px solid #3a3a3a;
+    /*border: 3px solid #3a3a3a;*/
+    border: 3px solid white;
     border-radius: 10px;
-    background-color: #E5E4E2;
+    /*background-color: #E5E4E2;*/
+    background-color: black;
     margin: 2vh;
     max-width: 80vw;
     padding: .7rem .7rem 2rem .7rem;
@@ -153,6 +163,7 @@ main {
     border: 3px solid #3a3a3a;
     border-radius: 10px;
     background-color: #E5E4E2;
+    background-color: black;
     margin: 2vh;
     max-width: 80vw;
     padding: .7rem .7rem 2rem .7rem;
@@ -168,7 +179,8 @@ footer {
 }
 
 #social-networks {
-    border-top: 3px solid #3a3a3a;
+    /*border-top: 3px solid #3a3a3a;*/
+    border-top: 3px solid white;
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -179,7 +191,8 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+   /* color: #3a3a3a;*/
+   color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -202,17 +215,19 @@ footer {
     #social-networks {
         display: flex;
         position: relative;
-        border: 3px solid #3a3a3a;
+        /* border-color: #3a3a3a;*/
+        border: 3px solid white;
         border-radius: 10px;
         width: fit-content;
         padding: .35rem .7rem;
-        background-color: #E5E4E2;
+        /*background-color: #E5E4E2;*/
+        background-color: black;
         justify-content: space-around;
     }
 
     #nav-menu {
         display: flex;
-        background-color: #E5E4E2;
+        /*background-color: #E5E4E2;*/
     }
 
     #nav-menu>li {
@@ -251,11 +266,13 @@ footer {
         display: flex;
         /* I don't think this matters 
         position: relative; */
-        background-color: #E5E4E2;
+        /*background-color: #E5E4E2;*/
+        background-color: black;
         margin: 1em;
         padding: 1rem;
         min-width: 50vw;
-        border: 3px solid #3a3a3a;
+        /*border: 3px solid #3a3a3a;*/
+        border: 3px solid white;
         border-radius: 10px;
         justify-content: space-around;
     }
@@ -266,7 +283,8 @@ footer {
    I am not sure what this media query should be set to.*/
 @media screen and (min-width: 916px) {
     #nav-menu a:hover {
-        border-bottom: 1.5px solid #3a3a3a;
+        /*border-bottom: 1.5px solid #3a3a3a;*/
+        border-bottom: 1.5px solid white;
     }
 
     /* this causes the container around social links to bulge
@@ -278,9 +296,5 @@ footer {
         border-radius: 5px;
     }*/
 }
-/* temporary color styling */
-* {
-    background-color: black;
-    color: white;
-    border-color: white;
-}
+
+
