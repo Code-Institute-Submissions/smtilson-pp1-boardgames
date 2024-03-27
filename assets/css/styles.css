@@ -129,6 +129,21 @@ main {
     margin-bottom: 15vh;
 }
 
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-box {
+    border: 3px solid #3a3a3a;
+    border-radius: 10px;
+    background-color: #E5E4E2;
+    margin: 2vh;
+    max-width: 80vw;
+    padding: .7rem .7rem 2rem .7rem;
+}
+/*
 .content-div, .content-p {
     display: flex;
     justify-content: center;
@@ -142,7 +157,7 @@ main {
     max-width: 80vw;
     padding: .7rem .7rem 2rem .7rem;
 }
-
+*/
 /* footer */
 
 footer {
