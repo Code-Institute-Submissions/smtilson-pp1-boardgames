@@ -131,10 +131,12 @@ nav {
 main {
     /* sticks footer to bottom */
     flex: 1 0 auto;
-    margin-top: 15vh;
+    /*don't use vh for margin 
+      use ems instead */
+    margin-top: 7em;
     padding-left: .75rem;
     align-items: center;
-    margin-bottom: 15vh;
+    margin-bottom: 6em;
 }
 
 .ccontainer {
