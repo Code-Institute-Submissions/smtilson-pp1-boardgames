@@ -263,3 +263,9 @@ footer {
         border-radius: 5px;
     }*/
 }
+/* temporary color styling */
+* {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
