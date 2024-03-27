@@ -256,6 +256,7 @@ footer {
 
     #nav-menu>li {
         padding: 0rem 1rem;
+        text-align: center;
     }
 
     #nav-toggle-label {
