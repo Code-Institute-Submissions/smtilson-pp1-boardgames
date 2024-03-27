@@ -134,9 +134,9 @@ main {
     /*don't use vh for margin 
       use ems instead */
     margin-top: 7em;
+    margin-bottom: 6em;
     padding-left: .75rem;
     align-items: center;
-    margin-bottom: 6em;
 }
 
 .ccontainer {
@@ -144,6 +144,18 @@ main {
     justify-content: center;
     flex-direction: column;
     position: relative;
+}
+
+.game-cover {
+    height: 13em;
+    width: 13em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    align-self: center;
 }
 
 .box {
