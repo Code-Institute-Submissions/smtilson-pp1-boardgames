@@ -33,7 +33,7 @@ The site does not have information on that many games, but the design is such th
 
 [return to Table of Contents](#toc)
 
-## Features <a name="features"></a>>
+## Features <a name="features"></a>
 #### Navbar
 There is a navbar at the top of the page. For screens of width less than 768px, the navbar is hidden. Clicking on the header of the page will toggle the navbar, which drops down below the header.
 
@@ -58,9 +58,6 @@ hese external links are to the games page on BGG (the definitive online resource
 ### Manual Testing
 ### Validation
 ### Bugs
-- steps taken to manually test
-- validation
-- identifies potential bugs
 
 [return to Table of Contents](#toc)
 
@@ -85,7 +82,7 @@ To deploy the project follow the following steps.
 
 [return to Table of Contents](#toc)
 
-## Credits and Outside sources <a name="credits"></a>>
+## Credits and Outside sources <a name="credits"></a>
 
 #### Inspiration
 This project was influenced by the Love Running walkthrough project. I learned many things there.
