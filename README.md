@@ -85,9 +85,26 @@ To deploy the project follow the following steps.
 ## Credits and Outside sources <a name="credits"></a>
 
 #### Inspiration
+
+-Love Running Walkthrough
 This project was influenced by the Love Running walkthrough project. I learned many things there.
 In particular
-- the CSS method for creating a dropdown menu
-citation of things used
+1. CSS for dropdown menu for the navbar
+2. header section
+3. sticking footer to bottom of page
+
+-[Stackoverflow: single line](https://stackoverflow.com/questions/44696874/forcing-a-h1-to-stay-in-1-line): keeping logo in one line.
+
+-Images:
+Images for game covers:
+1. [Lost Cities on BGG](https://boardgamegeek.com/boardgame/50/lost-cities)
+2. [Fox in the Forest on BGG](https://boardgamegeek.com/boardgame/221965/fox-forest)
+3. [7 Wonders Duel on BGG](https://boardgamegeek.com/boardgame/173346/7-wonders-duel)
+4. [Arkham Horror: the Card Game on BGG](https://boardgamegeek.com/boardgame/205637/arkham-horror-card-game)
+5. [Earthborne Rangers on BGG](https://boardgamegeek.com/boardgame/342900/earthborne-rangers)
+6. [Heat on BGG](https://boardgamegeek.com/boardgame/366013/heat-pedal-metal)
+7. [Century: Spice Road on BGG](https://boardgamegeek.com/boardgame/209685/century-spice-road)
+8. [Onitama on BGG](https://boardgamegeek.com/boardgame/160477/onitama)
+9. [Sagrada on BGG](https://boardgamegeek.com/boardgame/199561/sagrada)
 
 [return to Table of Contents](#toc)

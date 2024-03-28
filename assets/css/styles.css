@@ -146,6 +146,12 @@ main {
     position: relative;
 }
 
+#hero1 {
+    height: 20em;
+    width: 100%;
+    background: url('../images/hero1-img.jpg') no-repeat center center/cover;
+}
+
 .game-cover {
     height: 65vw;
     width: 65vw;
