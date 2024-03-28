@@ -5,10 +5,12 @@
 
 ## Intro
 ### Project Description
-This site is a collection of recommendations for different boardgames and cardgames for people new to the hobby. There are pages devoted to 2 player games, games for new players, and the authors personal favorite games. Information on specific games is accompanied by links to relevant external sites. There is also a page of links to external resources relevant to the hobby.
-
+This site is a collection of recommendations for different boardgames and cardgames for people new to the hobby. There are pages devoted to 2 player games, games for new players, and the authors personal favorite games. Information on specific games is accompanied by links to relevant external sites. 
+<!-- the below feaeture has not let been added. It will likely be the last feature, if at all.
+There is also a page of links to external resources relevant to the hobby.
+-->
 ### Project Purpose
-The purpose of the site is to inform people new to the hobby about different games they may not be aware of. Not every game suits every person/group of players, and the site aims to help people make informed choices.
+The purpose of the site is to inform people new to the hobby about different games they may not be aware of. Not every game suits every person/group of players, and the site aims to help people make informed choices. Hundreds of new boardgames are released every year as the hobby and market grows. Providing information about games for different audiences is a valuable endeavor as the hobby can be expensive and time consuming.
 
 ### User Demographics
 The expected user is someone who has some experience with hobby boardgames and cardgames. They are interested in trying new games and determining what they do and do not like.
@@ -29,13 +31,16 @@ On larger screens, it displays horizontally beneath the header. Also, the curren
 #### Footer
 The footer contains (so far) links to social media sites. These open in new tabs and only go to the main page of the respective social media site. The links are social media icons.
 
+### Content pages
+So far, there are 3 pages of content. They each relate to a different (but potentially overlapping) category of games: games for 2 players, games for new players, and the authors favorite games. Each page contains entries on multiple games. Each entry contains an image of the boardgame cover, a brief blurb about the game from the author, and links to external sites regarding the game.
+
+#### Links to external resources
+hese external links are to the games page on BGG (the definitive online resource for boardgames), and reviews on youtube. The primary reviews are to the YouTube channels Shut Up and Sit Down, and the Dice Tower. These are the two most dominant review channels on YouTube.
 
 - buttons or links
 - forms
-- image galleries
 - contact forms
 
-- scroll animation?
 
 ## manual testing
 - steps taken to manually test
@@ -43,8 +48,6 @@ The footer contains (so far) links to social media sites. These open in new tabs
 - identifies potential bugs
 
 ## deployment steps
-guided set up step by step process for deployment
-
 ## credits
 
 #### Inspiration
