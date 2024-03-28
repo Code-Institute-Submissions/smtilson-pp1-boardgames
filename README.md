@@ -48,6 +48,25 @@ hese external links are to the games page on BGG (the definitive online resource
 - identifies potential bugs
 
 ## deployment steps
+guided set up step by step process for deployment
+To deploy the project follow the following steps.
+
+1. Copy/Clone the repository https://github.com/smtilson/pp1-boardgames on github.
+
+2. Go to your copy of the repository on your github page (likely https://github.com/YOUR-USERNAME-HERE/pp1-boardgames)
+
+3. Open settings tab on top right of page
+
+4. Click on pages link on the left sidebar in the "Code and Automation" section.
+
+5. Set "Source" to "Deploy from branch", select "main" branch, and set folder to /(root) under "Build and Deployment". Then click Save.
+
+6. Return to the "Code" tab and wait for site to build. Try doing a hard refresh.
+
+7. On the right hand side under "Deployments", click on "github-pages".
+
+8. Click on the link which matches https://USERNAME.github.io/REPO-NAME/ to view the deployed site.
+
 ## credits
 
 #### Inspiration
