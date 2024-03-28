@@ -43,7 +43,7 @@ On larger screens, it displays horizontally beneath the header. Also, the curren
 The footer contains (so far) links to social media sites. These open in new tabs and only go to the main page of the respective social media site. The links are social media icons.
 
 #### Content pages
-So far, there are 3 pages of content. They each relate to a different (but potentially overlapping) category of games: games for 2 players, games for new players, and the authors favorite games. Each page contains entries on multiple games. Each entry contains an image of the boardgame cover, a brief blurb about the game from the author, and links to external sites regarding the game.
+There are 3 pages of content. They each relate to a different (but potentially overlapping) category of games: games for 2 players, games for new players, and the authors favorite games. Each page contains entries on multiple games. Each entry contains an image of the boardgame cover, a brief blurb about the game from the author, and links to external sites regarding the game.
 
 #### Links to external resources
 hese external links are to the games page on BGG (the definitive online resource for boardgames), and reviews on youtube. The primary reviews are to the YouTube channels Shut Up and Sit Down, and the Dice Tower. These are the two most dominant review channels on YouTube.
