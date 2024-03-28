@@ -135,8 +135,29 @@ main {
       use ems instead */
     margin-top: 7em;
     margin-bottom: 6em;
-    padding-left: .75rem;
+    /* why was this padding here? 
+    padding-left: .75rem;*/
     align-items: center;
+}
+
+/* Hero section styles */
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: -1em;
+}
+
+#hero1 {
+    background: url('../images/hero1-img.jpg') no-repeat center center/cover;
+}
+
+#hero2 {
+    background: url('../images/hero2-img.jpg') no-repeat center center/cover;
+}
+
+.hero-div {
+    height: 600px;
+    width: 100%;
 }
 
 .container {
@@ -144,12 +165,6 @@ main {
     justify-content: center;
     flex-direction: column;
     position: relative;
-}
-
-#hero1 {
-    height: 20em;
-    width: 100%;
-    background: url('../images/hero1-img.jpg') no-repeat center center/cover;
 }
 
 .game-cover {
