@@ -1,9 +1,14 @@
-# Title
+# Title <a name="title"></a>
 ### Sean Recommends
 #### Boardgames for the Newly Converted
 [Sean Recommends Github pages link](https://smtilson.github.io/pp1-boardgames/index.html)
 
-## Intro
+## Table of contents.
+
+[Title](#title)
+[Introduction](#intro)
+
+## <a name="intro"> Introduction </a>
 ### Project Description
 This site is a collection of recommendations for different boardgames and cardgames for people new to the hobby. There are pages devoted to 2 player games, games for new players, and the authors personal favorite games. Information on specific games is accompanied by links to relevant external sites. 
 <!-- the below feaeture has not let been added. It will likely be the last feature, if at all.
