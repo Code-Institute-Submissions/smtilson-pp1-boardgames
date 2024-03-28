@@ -50,7 +50,7 @@ hese external links are to the games page on BGG (the definitive online resource
 
 - buttons or links
 #### Signup form
-The signup form subscribes users to a mailing list.
+The signup form "subscribes users to a mailing list". It asks for first name, favorite game, and email address.
 
 [return to Table of Contents](#toc)
 
