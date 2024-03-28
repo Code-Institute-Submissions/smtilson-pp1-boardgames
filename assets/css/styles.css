@@ -319,12 +319,17 @@ footer {
         justify-content: center;
     }
     
+    #landing-page {
+        width: 100%;
+        /*height: 900px;*/
+    }
+
     #hero1, #hero2 {
         display: none;
     }
 
     #hero3 {
-        display:initial;
+        display: flex;
     }
     /* this lines up the top of the images in larger screens*/
     .section-content {
