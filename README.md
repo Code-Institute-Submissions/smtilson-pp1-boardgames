@@ -49,8 +49,8 @@ There are 3 pages of content. They each relate to a different (but potentially o
 hese external links are to the games page on BGG (the definitive online resource for boardgames), and reviews on youtube. The primary reviews are to the YouTube channels Shut Up and Sit Down, and the Dice Tower. These are the two most dominant review channels on YouTube.
 
 - buttons or links
-- forms
-- contact forms
+#### Signup form
+The signup form subscribes users to a mailing list.
 
 [return to Table of Contents](#toc)
 
@@ -93,9 +93,10 @@ In particular
 2. header section
 3. sticking footer to bottom of page
 
+#### StackOverflow
 -[Stackoverflow: single line](https://stackoverflow.com/questions/44696874/forcing-a-h1-to-stay-in-1-line): keeping logo in one line.
 
--Images:
+#### Images
 Images for game covers:
 1. [Lost Cities on BGG](https://boardgamegeek.com/boardgame/50/lost-cities)
 2. [Fox in the Forest on BGG](https://boardgamegeek.com/boardgame/221965/fox-forest)
