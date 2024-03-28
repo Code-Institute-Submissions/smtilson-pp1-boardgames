@@ -1,4 +1,7 @@
-## Title
+# Title
+### Sean Recommends
+#### Boardgames for the Newly Converted
+[Sean Recommends Github pages link] (https://smtilson.github.io/pp1-boardgames/index.html)
 
 ## Intro
 ### Project Description
