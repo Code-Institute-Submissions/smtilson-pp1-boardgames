@@ -153,6 +153,7 @@ main {
 
 #landing-page a {
     text-decoration: none;
+    color: white;
 }
 
 #hero1 {
@@ -190,6 +191,11 @@ main {
 
 .transparent-background {
     background: transparent;
+}
+
+.hover-border:hover {
+    /*border-bottom: 1.5px solid #3a3a3a;*/
+    border: 1.5px solid white;
 }
 /* positions cover-text for hero1 image */
 #hero1-text1 {
