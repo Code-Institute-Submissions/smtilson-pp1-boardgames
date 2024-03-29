@@ -310,6 +310,21 @@ main {
     padding: .7rem .7rem 2rem .7rem;
 }
 */
+
+/* form styles */
+#signup-section {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+#signup-form {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    border-radius: 50%;
+}
 /* footer */
 
 footer {
