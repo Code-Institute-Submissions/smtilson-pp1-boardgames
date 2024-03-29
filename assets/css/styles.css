@@ -209,7 +209,7 @@ main {
     margin-top: 2em;
     margin-bottom: 2em;
     /* Makes the square image into a circle */
-    border-radius: 50%;
+    border-radius: 18%;
     max-width: 300px;
     max-height: 300px;
     align-self: center;
