@@ -35,14 +35,20 @@
     <main>
         <section id="signup-section">
             <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
-                <h2 id="signup-header">Subcribe to our mailing list!</h2>
-                <h4 id="signup-subtitle">Our mailing list will update you whenever we post something new.</h4>
-                <label for="first-name" class="text-field">First Name:</label>
-                <input type="text" id="first-name" name="first-name" class="text-input" required>
-                <label for="fav-game-field" class="text-field">Favorite Game:</label>
-                <input type="text" id="fav-game-field" name="fav-game-field" class="text-input" required>
-                <label for="email" class="text-field">Email Address:</label>
-                <input type="email" id="email" name="email" class="text-input" required>
+                <div id="noninput-form-elements" class="centered-text">
+                    
+                    <h3>Join our </h3>
+                    <h3>mailing list!</h3>
+                    <p>Get updated when we post something new.</p>
+                </div>
+                <div id="input-fields">
+                    <label for="first-name" class="text-field">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" class="text-input" required>
+                    <label for="fav-game-field" class="text-field">Favorite Game:</label>
+                    <input type="text" id="fav-game-field" name="fav-game-field" class="text-input" required>
+                    <label for="email" class="text-field">Email Address:</label>
+                    <input type="email" id="email" name="email" class="text-input" required>
+                </div>
                 <input type="button" value="Subscribe">
             </form>
         </section>

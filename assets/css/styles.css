@@ -193,6 +193,10 @@ main {
     background: transparent;
 }
 
+.centered-text {
+    text-align: center;
+}
+
 .hover-border:hover {
     /*border-bottom: 1.5px solid #3a3a3a;*/
     border: 1.5px solid white;
@@ -316,6 +320,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: grey;
+    flex-shrink: 1;
 }
 
 #signup-form {
@@ -323,8 +328,33 @@ main {
     display: flex;
     flex-direction: column;
     padding: 1.5em;
-    border-radius: 50%;
+    border-radius: 18%;
+    width:90%;
+    align-self: center;
+    align-items: center;
+    gap: 10px;
 }
+
+#noninput-form-elements {
+    /*display: flex;
+    flex-direction: column;*/
+    width: 60%;
+}
+
+#noninput-form-elements h2,h4 {
+    text-justify: center;
+}
+
+#input-fields {
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.text-field {
+    margin-top:10px;
+}
+
 /* footer */
 
 footer {
