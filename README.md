@@ -48,7 +48,6 @@ There are 3 pages of content. They each relate to a different (but potentially o
 #### Links to external resources
 hese external links are to the games page on BGG (the definitive online resource for boardgames), and reviews on youtube. The primary reviews are to the YouTube channels Shut Up and Sit Down, and the Dice Tower. These are the two most dominant review channels on YouTube.
 
-- buttons or links
 #### Signup form
 The signup form "subscribes users to a mailing list". It asks for first name, favorite game, and email address.
 
