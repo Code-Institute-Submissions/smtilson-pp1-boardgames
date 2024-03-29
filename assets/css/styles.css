@@ -198,11 +198,18 @@ main {
 }
 
 #hero2-text {
-    top: 5.5em;
-    width: 44%;
-    left: 0.3em;
+    top: 6.5em;
+    width: 43%;
+    left: 0.18em;
+    font-size: 99%;
 }
 
+#two-player-info {
+    top: 8em;
+    width: 43%;
+    position: absolute;
+    right: 0.3em;
+}
 /* content pages styling */
 .container {
     display: flex;
