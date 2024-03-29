@@ -45,6 +45,9 @@ header a {
     align-items: center;
 }
 
+/* name should be changed in 
+html and here to reflect that 
+they are not together anymore */
 #logo-tag-line {
     display: flex;
     flex-direction: column;
@@ -163,6 +166,24 @@ main {
 .hero-div {
     height: 600px;
     width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.landing-page-text {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+/* positions cover-text for hero1 image */
+#hero1-text {
+    top: 2em;
+    left: 9em;
+    position: absolute;
 }
 
 .container {
@@ -192,7 +213,7 @@ main {
     border-radius: 10px;
 }
 
-.cheader {
+.content-header {
     margin: 1vh;
     margin-bottom: -.5vh;
     position: relative;
@@ -215,6 +236,7 @@ main {
     justify-content: space-evenly;
     margin-bottom: 3vh;
 }
+
 /*
 .content-div, .content-p {
     display: flex;
@@ -258,6 +280,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+
     /* Header */
     header {
         border-bottom: none;
@@ -318,19 +341,21 @@ footer {
         display: flex;
         justify-content: center;
     }
-    
+
     #landing-page {
         width: 100%;
         /*height: 900px;*/
     }
 
-    #hero1, #hero2 {
+    #hero1,
+    #hero2 {
         display: none;
     }
 
     #hero3 {
         display: flex;
     }
+
     /* this lines up the top of the images in larger screens*/
     .section-content {
         display: flex;
@@ -339,16 +364,19 @@ footer {
         /* not sure if this is the right factor that I want */
         gap: 1rem;
     }
+
     /* resizes game cover image to something fixed */
     .game-cover {
         height: 12em;
         width: 12em;
     }
+
     /* footer */
     footer {
         display: flex;
         justify-content: center;
     }
+
     #social-networks {
         display: flex;
         /*background-color: #E5E4E2;*/
