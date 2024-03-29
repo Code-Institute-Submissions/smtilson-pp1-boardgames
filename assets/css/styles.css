@@ -173,26 +173,34 @@ main {
 .landing-page-text {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0,0,0,0.5);
+    /* this syle needs to be addressed later */
+    background-color: rgba(0,0,0,0.6);
     width: 60%;
     padding: 10px;
     border-radius: 10px;
     position: absolute;
+    width: auto;
+}
+
+.transparent-background {
+    background: transparent;
 }
 /* positions cover-text for hero1 image */
 #hero1-text1 {
     top: 4em;
     left: 1em;
-    width: 90%;
+    white-space: nowrap;
 }
 
 #hero1-text2 {
-    bottom: 12em;
-    width: 70%;
+    bottom: 11em;
+    right: 1em;
 }
 
-.lp-content {
-    background: transparent;
+#hero2-text {
+    top: 5.5em;
+    width: 44%;
+    left: 0.3em;
 }
 
 /* content pages styling */
