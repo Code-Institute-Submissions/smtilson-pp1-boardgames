@@ -319,12 +319,10 @@ main {
 #signup-section {
     display: flex;
     flex-direction: column;
-    background-color: grey;
     flex-shrink: 1;
 }
 
 #signup-form {
-    background-color: darkblue;
     display: flex;
     flex-direction: column;
     padding: 1.5em;
