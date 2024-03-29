@@ -252,6 +252,7 @@ main {
     justify-content: center;
     flex-direction: column;
     position: relative;
+    margin-bottom: 22px;
 }
 
 .game-cover {
@@ -295,9 +296,6 @@ main {
     display: flex;
     position: relative;
     /*width: fit-content;*/
-    justify-content: space-around;
-    gap: 5px;
-    margin-bottom: 3vh;
 }
 
 
