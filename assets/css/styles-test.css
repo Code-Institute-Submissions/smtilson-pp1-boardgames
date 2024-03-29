@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-color: #36454F; */
+    background-color: black;
+    /*color: #3a3a3a;*/
+    color: white;
+}
+
+/* causes everything to inherit bgc from its parent */
+* * {
+    background-color: inherit;
+    color: inherit
+}
+
+/* header */
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    /*border-bottom: 3px solid #3a3a3a;*/
+    border-bottom: 3px solid white;
+}
+
+header a {
+    text-decoration: none;
+    /*color: #3a3a3a;*/
+    color: white;
+}
+
+#nav-toggle-label {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* name should be changed in 
+html and here to reflect that 
+they are not together anymore */
+#logo-tag-line {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+}
+
+/* Font still needs to be chosen. */
+#logo {
+    white-space: nowrap;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    min-height: 1.5em;
+    margin-top: .35em;
+    margin-bottom: -.25em;
+    flex-shrink: 1;
+}
+
+#tag-line {
+    letter-spacing: .5px;
+    min-height: 1.5em;
+    margin-bottom: .25em;
+    margin-top: -.25em;
+    flex-shrink: 1;
+}
+
+/* this overlaps when looking at specific cell phones
+    is there a way to do it with flex box? */
+#icon-div {
+    flex-basis: 20%;
+}
+
+#nav-toggle-icon {
+    font-size: 225%;
+    margin-bottom: -2.5rem;
+    align-self: center;
+    position: relative;
+    top: 32%;
+    left: 13%;
+}
+
+.active {
+    /*border: 1.5px solid #3a3a3a;*/
+    border: 1.5px solid white;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 1.5px;
+    list-style-type: none;
+}
+
+#nav-menu>li {
+    margin-bottom: .2em;
+}
+
+nav {
+    position: absolute;
+    /*border-top: 3px solid #3a3a3a;
+    border-bottom: 3px solid #3a3a3a;*/
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 100%;
+    left: 0;
+    padding-left: 1rem;
+    padding-top: .7rem;
+    padding-bottom: .35em;
+    display: none;
+    top: 100%;
+    /*background-color: #E5E4E2;*/
+    background-color: black;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+/* main */
+main {
+    /* sticks footer to bottom */
+    flex: 1 0 auto;
+    /*don't use vh for margin 
+      use ems instead */
+    margin-top: 7em;
+    margin-bottom: 6em;
+    /* why was this padding here? 
+    padding-left: .75rem;*/
+    align-items: center;
+}
+
+/* Hero section styles */
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3.6em;
+}
+
+#hero1 {
+    background: url('../images/hero1-img.jpg') no-repeat center center/cover;
+}
+
+#hero2 {
+    background: url('../images/hero2-img.jpg') no-repeat center center/cover;
+}
+
+#hero3 {
+    background: url('../images/hero3-img.jpg') no-repeat center center/cover;
+    display: none;
+}
+
+.hero-div {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.landing-page-text {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 90%;
+}
+/* positions cover-text for hero1 image */
+#hero1-text1 {
+    top: 12.3em;
+    left: 6.8em;
+    width: 70%;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.game-cover {
+    height: 65vw;
+    width: 65vw;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    align-self: center;
+}
+
+.box {
+    /*border: 3px solid #3a3a3a;*/
+    /*background-color: #E5E4E2;*/
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.content-header {
+    margin: 1vh;
+    margin-bottom: -.5vh;
+    position: relative;
+    left: 3vw;
+    width: fit-content;
+    padding: .3rem 1rem .3rem 1rem;
+}
+
+.content {
+    margin: 2vh;
+    max-width: 80vw;
+    padding: .7rem .7rem 2rem .7rem;
+    align-self: center;
+}
+
+.clinks {
+    list-style-type: none;
+    display: flex;
+    /*width: fit-content;*/
+    justify-content: space-evenly;
+    margin-bottom: 3vh;
+}
+
+/*
+.content-div, .content-p {
+    display: flex;
+    justify-content: center;
+}
+
+.content-p {
+    border: 3px solid #3a3a3a;
+    border-radius: 10px;
+    background-color: #E5E4E2;
+    background-color: black;
+    margin: 2vh;
+    max-width: 80vw;
+    padding: .7rem .7rem 2rem .7rem;
+}
+*/
+/* footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    z-index: 99;
+}
+
+#social-networks {
+    /*border-top: 3px solid #3a3a3a;*/
+    border-top: 3px solid white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    /* color: #3a3a3a;*/
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    header {
+        border-bottom: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav,
+    #social-networks {
+        display: flex;
+        position: relative;
+        /* border-color: #3a3a3a;*/
+        border: 3px solid white;
+        border-radius: 10px;
+        width: fit-content;
+        padding: .35rem .7rem;
+        /*background-color: #E5E4E2;*/
+        background-color: black;
+        justify-content: space-around;
+    }
+
+    #nav-menu {
+        display: flex;
+        /*background-color: #E5E4E2;*/
+    }
+
+    #nav-menu>li {
+        padding: 0rem 1rem;
+        text-align: center;
+    }
+
+    #nav-toggle-label {
+        flex-direction: column;
+    }
+
+    #logo {
+        font-size: 3rem;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    #tag-line,
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #icon-div {
+        display: none;
+    }
+
+    /* main content */
+    main {
+        /* push main content down */
+        margin-top: 155px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #landing-page {
+        width: 100%;
+        /*height: 900px;*/
+    }
+
+    #hero1,
+    #hero2 {
+        display: none;
+    }
+
+    #hero3 {
+        display: flex;
+    }
+
+    /* this lines up the top of the images in larger screens*/
+    .section-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        /* not sure if this is the right factor that I want */
+        gap: 1rem;
+    }
+
+    /* resizes game cover image to something fixed */
+    .game-cover {
+        height: 12em;
+        width: 12em;
+    }
+
+    /* footer */
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    #social-networks {
+        display: flex;
+        /*background-color: #E5E4E2;*/
+        background-color: black;
+        margin: 1em;
+        padding: 1rem;
+        min-width: 50vw;
+        /*border: 3px solid #3a3a3a;*/
+        border: 3px solid white;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+}
+
+/* media query: laptop and larger (992px)*/
+/* I changed the number of pixels since my screen has a smaller width.
+   I am not sure what this media query should be set to.*/
+@media screen and (min-width: 916px) {
+    #nav-menu a:hover {
+        /*border-bottom: 1.5px solid #3a3a3a;*/
+        border-bottom: 1.5px solid white;
+    }
+
+    /* this causes the container around social links to bulge
+        so it is commented out until I fix the dimensions of
+        #social-networks
+    #social-networks i:hover {
+        border: 1.5px solid #3a3a3a;
+        padding: 1px 5px;
+        border-radius: 5px;
+    }*/
+}
