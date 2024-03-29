@@ -229,6 +229,12 @@ main {
     left: 2em;
 }
 
+#mailing-list {
+    position: absolute;
+    bottom: 4.4em;
+    left: 3em;
+}
+
 /* content pages styling */
 .container {
     display: flex;
