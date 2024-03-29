@@ -56,6 +56,7 @@ The signup form "subscribes users to a mailing list". It asks for first name, fa
 
 ## Testing <a name="testing"></a>
 ### Manual Testing
+I used dev tools in chrome to test the responsiveness of the site.
 ### Validation
 ### Bugs
 
@@ -92,6 +93,9 @@ In particular
 1. CSS for dropdown menu for the navbar
 2. header section
 3. sticking footer to bottom of page
+
+#### Mentor
+I received a lot of support from my mentor. This took the form of helpful tips, explaining what to focus on in terms of prioritization, and which design decisions were relevant for the assessment criteria.
 
 #### StackOverflow
 -[Stackoverflow: single line](https://stackoverflow.com/questions/44696874/forcing-a-h1-to-stay-in-1-line): keeping logo in one line.
