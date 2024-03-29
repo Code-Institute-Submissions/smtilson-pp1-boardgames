@@ -185,6 +185,7 @@ main {
     border-radius: 10px;
     position: absolute;
     width: auto;
+    height:fit-content;
 }
 
 .transparent-background {
@@ -391,10 +392,9 @@ footer {
         display: flex;
         justify-content: center;
     }
-
+    /* Landing page */
     #landing-page {
         width: 100%;
-        /*height: 900px;*/
     }
 
     #hero1,
@@ -413,10 +413,46 @@ footer {
     }
 
     #hero1-text2 {
-        top: 8%;
+        top: 9%;
         right: 8%;
         font-size: 113%;
         height: fit-content;
+    }
+
+    #hero2-text {
+        position: absolute;
+        top: 9em;
+        left: 5em;
+        width: 31%;
+        font-size: 118%;
+    }
+    
+    #new-player-info {
+        position: absolute;
+        top: 17em;
+        right: 28em;
+        width: 29%;
+    }
+    
+    #two-player-info {
+        position: absolute;
+        top: 23em;
+        left: 6.5em;
+        width: 29%;
+    }
+    
+    #fav-games-info {
+        position: absolute;
+        top: 17.5em;
+        left: 27em;
+        width: 38%;
+    }
+    
+    #mailing-list {
+        position: absolute;
+        position: absolute;
+        bottom: 13em;
+        left: 30em;
     }
     /* this lines up the top of the images in larger screens*/
     .section-content {
