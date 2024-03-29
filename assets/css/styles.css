@@ -177,16 +177,25 @@ main {
     width: 60%;
     padding: 10px;
     border-radius: 10px;
-    font-size: 90%;
+    position: absolute;
 }
 /* positions cover-text for hero1 image */
 #hero1-text1 {
-    top: 12.3em;
-    left: 6.8em;
-    width: 70%;
-    position: absolute;
+    top: 4em;
+    left: 1em;
+    width: 90%;
 }
 
+#hero1-text2 {
+    bottom: 12em;
+    width: 70%;
+}
+
+.lp-content {
+    background: transparent;
+}
+
+/* content pages styling */
 .container {
     display: flex;
     justify-content: center;
