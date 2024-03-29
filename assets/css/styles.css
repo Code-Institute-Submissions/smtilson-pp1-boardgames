@@ -148,6 +148,11 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: -3.6em;
+    font-size: 99%;
+}
+
+#landing-page a {
+    text-decoration: none;
 }
 
 #hero1 {
@@ -201,11 +206,6 @@ main {
     top: 6.5em;
     width: 43%;
     left: 0.18em;
-    font-size: 99%;
-}
-
-#two-player-info {
-    position: absolute;
 }
 
 #new-player-info {
@@ -214,6 +214,21 @@ main {
     position: absolute;
     right: 0.2em;
 }
+
+#two-player-info {
+    position: absolute;
+    top: 17em;
+    width: 80%;
+    left: 2em;
+}
+
+#fav-games-info {
+    position: absolute;
+    top: 24.5em;
+    width: 82%;
+    left: 2em;
+}
+
 /* content pages styling */
 .container {
     display: flex;
