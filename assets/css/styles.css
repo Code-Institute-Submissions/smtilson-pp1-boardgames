@@ -147,7 +147,7 @@ main {
 #landing-page {
     display: flex;
     flex-direction: column;
-    margin-top: -1em;
+    margin-top: -3.6em;
 }
 
 #hero1 {
@@ -177,12 +177,13 @@ main {
     width: 60%;
     padding: 10px;
     border-radius: 10px;
-   
+    font-size: 90%;
 }
 /* positions cover-text for hero1 image */
-#hero1-text {
-    top: 2em;
-    left: 9em;
+#hero1-text1 {
+    top: 12.3em;
+    left: 6.8em;
+    width: 70%;
     position: absolute;
 }
 
