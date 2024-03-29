@@ -105,7 +105,7 @@ Images for game covers:
 5. [Earthborne Rangers on BGG](https://boardgamegeek.com/boardgame/342900/earthborne-rangers)
 6. [Heat on BGG](https://boardgamegeek.com/boardgame/366013/heat-pedal-metal)
 7. [Century: Spice Road on BGG](https://boardgamegeek.com/boardgame/209685/century-spice-road)
-8. [Onitama on BGG](https://boardgamegeek.com/boardgame/160477/onitama)
+8. [Onitama logo from amazon](https://m.media-amazon.com/images/I/51JxHhJQMmL._AC_.jpg)
 9. [Sagrada on BGG](https://boardgamegeek.com/boardgame/199561/sagrada)
 
 [return to Table of Contents](#toc)
