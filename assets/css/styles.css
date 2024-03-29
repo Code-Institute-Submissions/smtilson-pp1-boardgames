@@ -157,15 +157,15 @@ main {
 }
 
 #hero1 {
-    background: url('../images/hero1-img.jpg') no-repeat center center/cover;
+    background: url('../images/hero-images/hero1-img.jpg') no-repeat center center/cover;
 }
 
 #hero2 {
-    background: url('../images/hero2-img.jpg') no-repeat center center/cover;
+    background: url('../images/hero-images/hero2-img.jpg') no-repeat center center/cover;
 }
 
 #hero3 {
-    background: url('../images/hero3-img.jpg') no-repeat center center/cover;
+    background: url('../images/hero-images/hero3-img.jpg') no-repeat center center/cover;
     display: none;
 }
 
@@ -296,6 +296,11 @@ main {
     /*width: fit-content;*/
     justify-content: space-evenly;
     margin-bottom: 3vh;
+}
+
+.susd-logo {
+    height: 94%;
+    width: 25%;
 }
 
 /*
