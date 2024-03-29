@@ -205,10 +205,14 @@ main {
 }
 
 #two-player-info {
-    top: 8em;
-    width: 43%;
     position: absolute;
-    right: 0.3em;
+}
+
+#new-player-info {
+    top: 7em;
+    width: 42%;
+    position: absolute;
+    right: 0.2em;
 }
 /* content pages styling */
 .container {
