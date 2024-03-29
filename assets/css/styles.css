@@ -294,13 +294,19 @@ main {
     list-style-type: none;
     display: flex;
     /*width: fit-content;*/
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 5px;
     margin-bottom: 3vh;
 }
 
 .susd-logo {
-    height: 94%;
-    width: 25%;
+    height: 79%;
+    width: 26%;
+}
+
+.dt-logo {
+    height: 90%;
+    width: 71%;
 }
 
 /*
