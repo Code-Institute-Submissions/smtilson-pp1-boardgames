@@ -203,28 +203,28 @@ main {
 }
 
 #hero2-text {
-    top: 6.5em;
-    width: 43%;
-    left: 0.18em;
+    top: 7.5em;
+    width: 37%;
+    left: .5em;
 }
 
 #new-player-info {
-    top: 7em;
-    width: 42%;
+    top: 7.5em;
+    width: 37%;
     position: absolute;
-    right: 0.2em;
+    right: .5em;
 }
 
 #two-player-info {
     position: absolute;
-    top: 17em;
-    width: 80%;
-    left: 2em;
+    top: 16.3em;
+    width: 64%;
+    left: 4em;
 }
 
 #fav-games-info {
     position: absolute;
-    top: 24.5em;
+    top: 24em;
     width: 82%;
     left: 2em;
 }
