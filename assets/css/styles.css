@@ -588,6 +588,7 @@ footer {
     footer {
         display: flex;
         justify-content: center;
+        background: transparent;
     }
 
     #social-networks {
@@ -601,6 +602,8 @@ footer {
         border: 3px solid white;
         border-radius: 10px;
         justify-content: space-around;
+        z-index: 99;
+        background-color: black;
     }
 }
 
