@@ -578,6 +578,10 @@ footer {
         height: 12em;
         width: 12em;
     }
+    /* adjusts headers for tablet screens*/
+    .content-header {
+        width: 94%;
+    }
 
     .links {
         padding: 0.7rem 1rem;
@@ -618,6 +622,10 @@ footer {
         border-bottom: 1.5px solid white;
     }
 
+    /* adjusts content header for larger screens */
+    .content-header {
+        width: 96%;
+    }
     /* this causes the container around social links to bulge
         so it is commented out until I fix the dimensions of
         #social-networks
