@@ -155,12 +155,50 @@ main {
     color: white;
 }
 
+#mobile-lp {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
 #hero1 {
     background: url('../images/hero-images/hero1-img.jpg') no-repeat center center/cover;
 }
 
 #hero2 {
     background: url('../images/hero-images/hero2-img.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+}
+
+#hero2-first-block {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 6% 0% 6%;
+    position: relative;
+    bottom: -1em;
+}
+
+.hero2-first-block-text {
+    color: white;
+}
+
+#hero2-column-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    position: relative;
+    height: 18em;
+    bottom: -3em;
 }
 
 #hero3 {
@@ -175,6 +213,10 @@ main {
     position: relative;
 }
 
+.position-absolute {
+    position: absolute;
+}
+
 .landing-page-text {
     display: flex;
     flex-direction: column;
@@ -183,7 +225,6 @@ main {
     width: 60%;
     padding: 10px;
     border-radius: 10px;
-    position: absolute;
     width: auto;
     height: fit-content;
 }
@@ -215,6 +256,7 @@ main {
     right: 1em;
 }
 
+/*
 .hero2-text {
     top: 7.5em;
     width: 37%;
@@ -246,7 +288,7 @@ main {
     position: absolute;
     bottom: 4.4em;
     left: 3em;
-}
+}*/
 
 /* content pages styling */
 .container {
@@ -578,6 +620,7 @@ footer {
         height: 12em;
         width: 12em;
     }
+
     /* adjusts headers for tablet screens*/
     .content-header {
         width: 94%;
@@ -626,6 +669,7 @@ footer {
     .content-header {
         width: 96%;
     }
+
     /* this causes the container around social links to bulge
         so it is commented out until I fix the dimensions of
         #social-networks
