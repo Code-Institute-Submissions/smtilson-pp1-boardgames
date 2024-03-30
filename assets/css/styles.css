@@ -136,7 +136,7 @@ main {
     /*don't use vh for margin 
       use ems instead */
     margin-top: 7em;
-    margin-bottom: 6em;
+    margin-bottom: 4em;
     /* why was this padding here? 
     padding-left: .75rem;*/
     align-items: center;
@@ -313,6 +313,10 @@ main {
     border-bottom: 1.5px solid white;
 }
 
+.bold {
+    font-weight: 900;
+    display: contents;
+}
 
 .bgg-logo {
     height: 50px;
@@ -433,6 +437,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background: transparent;
     }
 
     nav,
@@ -447,10 +452,12 @@ footer {
         /*background-color: #E5E4E2;*/
         background-color: black;
         justify-content: space-around;
+        z-index: 99;
     }
 
     #nav-menu {
         display: flex;
+        z-index: 99;
         /*background-color: #E5E4E2;*/
     }
 
@@ -468,6 +475,8 @@ footer {
         font-size: 3rem;
         line-height: 75px;
         margin: 0 0.5rem;
+        /*background: transparent;*/
+        z-index: 99;
     }
 
     #tag-line,
@@ -486,6 +495,7 @@ footer {
         margin-top: 155px;
         display: flex;
         justify-content: center;
+        z-index: 50;
     }
 
     /* Landing page */
