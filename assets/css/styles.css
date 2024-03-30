@@ -204,45 +204,45 @@ main {
 }
 
 /* positions cover-text for hero1 image */
-#hero1-text1 {
+.hero1-text1 {
     top: 4em;
     left: 1em;
     white-space: nowrap;
 }
 
-#hero1-text2 {
+.hero1-text2 {
     bottom: 11em;
     right: 1em;
 }
 
-#hero2-text {
+.hero2-text {
     top: 7.5em;
     width: 37%;
     left: .5em;
 }
 
-#new-player-info {
+.new-player-info {
     top: 7.5em;
     width: 37%;
     position: absolute;
     right: .5em;
 }
 
-#two-player-info {
+.two-player-info {
     position: absolute;
     top: 16.3em;
     width: 64%;
     left: 4em;
 }
 
-#fav-games-info {
+.fav-games-info {
     position: absolute;
     top: 24em;
     width: 82%;
     left: 2em;
 }
 
-#mailing-list {
+.mailing-list {
     position: absolute;
     bottom: 4.4em;
     left: 3em;
@@ -514,21 +514,21 @@ footer {
         display: flex;
     }
 
-    #hero1-text1 {
+    .hero1-text1 {
         top: 8%;
         left: 8%;
         white-space: nowrap;
         font-size: 140%;
     }
 
-    #hero1-text2 {
+    .hero1-text2 {
         top: 9%;
         right: 8%;
         font-size: 113%;
         height: fit-content;
     }
 
-    #hero2-text {
+    .hero2-text {
         position: absolute;
         top: 9em;
         left: 5em;
@@ -536,28 +536,28 @@ footer {
         font-size: 118%;
     }
 
-    #new-player-info {
+    .new-player-info {
         position: absolute;
         top: 17em;
         right: 28em;
         width: 29%;
     }
 
-    #two-player-info {
+    .two-player-info {
         position: absolute;
         top: 23em;
         left: 6.5em;
         width: 29%;
     }
 
-    #fav-games-info {
+    .fav-games-info {
         position: absolute;
         top: 17.5em;
         left: 27em;
         width: 38%;
     }
 
-    #mailing-list {
+    .mailing-list {
         position: absolute;
         position: absolute;
         bottom: 13em;
