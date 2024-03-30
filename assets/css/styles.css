@@ -171,7 +171,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:10%;
+    gap: 10%;
 }
 
 #hero2-first-block {
@@ -570,42 +570,38 @@ footer {
         height: fit-content;
     }
 
+    #hero2-content-large-screen {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 44%;
+        margin-right: 10%;
+        margin-left: 10%;
+        gap: 5%;
+    }
+
     .hero2-text {
-        position: absolute;
-        top: 9em;
-        left: 5em;
-        width: 31%;
-        font-size: 118%;
+        width: fit-content;
+        align-self: center;
+        width: 48%;
+        text-align: center;
     }
 
-    .new-player-info {
-        position: absolute;
-        top: 17em;
-        right: 28em;
-        width: 29%;
+    #left-right-columns {
+        display: flex;
+        flex-direction: row;
+        gap: 16%;
+        width: 61%;
+        align-self: center;
     }
 
-    .two-player-info {
-        position: absolute;
-        top: 23em;
-        left: 6.5em;
-        width: 29%;
+    .interior-column {
+        display: flex;
+        flex-direction: column;
+        gap:20%;
+        height:60%
     }
-
-    .fav-games-info {
-        position: absolute;
-        top: 17.5em;
-        left: 27em;
-        width: 38%;
-    }
-
-    .mailing-list {
-        position: absolute;
-        position: absolute;
-        bottom: 13em;
-        left: 30em;
-    }
-
+        
     /* this lines up the top of the images in larger screens*/
     .section-content {
         display: flex;
@@ -670,6 +666,10 @@ footer {
         width: 96%;
     }
 
+    #landing-page {
+        font-size: 120%;
+    }
+
     /* this causes the container around social links to bulge
         so it is commented out until I fix the dimensions of
         #social-networks
@@ -677,5 +677,13 @@ footer {
         border: 1.5px solid #3a3a3a;
         padding: 1px 5px;
         border-radius: 5px;
+        margin:-1.5px;
     }*/
+}
+
+
+@media screen and (min-width: 1440px) {
+    #landing-page {
+        font-size: 150%;
+    }
 }
