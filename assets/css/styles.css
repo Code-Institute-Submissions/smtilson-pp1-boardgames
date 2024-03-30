@@ -288,7 +288,7 @@ main {
 .content {
     margin: 2vh;
     max-width: 80vw;
-    padding: .7rem .7rem 2rem .7rem;
+    padding: .7rem .7rem 1rem .7rem;
     align-self: center;
 }
 
@@ -457,6 +457,7 @@ footer {
     #nav-menu>li {
         padding: 0rem 1rem;
         text-align: center;
+        margin-top: 3.52px;
     }
 
     #nav-toggle-label {
@@ -583,7 +584,7 @@ footer {
         display: flex;
         /*background-color: #E5E4E2;*/
         background-color: black;
-        margin: 1em;
+        margin: 0 1em 1em 1em;
         padding: 1rem;
         min-width: 50vw;
         /*border: 3px solid #3a3a3a;*/
