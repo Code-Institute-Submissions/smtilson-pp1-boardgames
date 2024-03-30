@@ -92,6 +92,7 @@ In particular
 1. CSS for dropdown menu for the navbar
 2. header section
 3. sticking footer to bottom of page
+4. favicon
 
 #### Mentor
 I received a lot of support from my mentor. This took the form of helpful tips, explaining what to focus on in terms of prioritization, and which design decisions were relevant for the assessment criteria.
