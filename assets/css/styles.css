@@ -200,6 +200,7 @@ main {
 .hover-border:hover {
     /*border-bottom: 1.5px solid #3a3a3a;*/
     border: 1.5px solid white;
+    border-radius: 10px;
 }
 
 /* positions cover-text for hero1 image */
@@ -560,6 +561,12 @@ footer {
         width: 12em;
     }
 
+    .links {
+        padding: 0.7rem 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        gap: 15px;
+    }
     /* footer */
     footer {
         display: flex;
