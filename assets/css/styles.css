@@ -143,7 +143,7 @@ main {
     align-items: center;
 }
 
-/* Hero section styles */
+/* Landing page styles */
 #landing-page {
     display: flex;
     flex-direction: column;
@@ -180,13 +180,13 @@ main {
     display: flex;
     flex-direction: column;
     /* this syle needs to be addressed later */
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 60%;
     padding: 10px;
     border-radius: 10px;
     position: absolute;
     width: auto;
-    height:fit-content;
+    height: fit-content;
 }
 
 .transparent-background {
@@ -201,6 +201,7 @@ main {
     /*border-bottom: 1.5px solid #3a3a3a;*/
     border: 1.5px solid white;
 }
+
 /* positions cover-text for hero1 image */
 #hero1-text1 {
     top: 4em;
@@ -291,11 +292,25 @@ main {
     align-self: center;
 }
 
-.clinks {
+.links {
     list-style-type: none;
     display: flex;
     position: relative;
-    /*width: fit-content;*/
+    /* width: fit-content; */
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.7rem 0;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    /*border-bottom: 1.5px solid #3a3a3a;*/
+    border-bottom: 1.5px solid white;
 }
 
 
@@ -350,7 +365,7 @@ main {
     flex-direction: column;
     padding: 1.5em;
     border-radius: 18%;
-    width:90%;
+    width: 90%;
     align-self: center;
     align-items: center;
     gap: 10px;
@@ -362,18 +377,19 @@ main {
     width: 60%;
 }
 
-#noninput-form-elements h2,h4 {
+#noninput-form-elements h2,
+h4 {
     text-justify: center;
 }
 
 #input-fields {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:5px;
+    gap: 5px;
 }
 
 .text-field {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 /* footer */
@@ -464,6 +480,7 @@ footer {
         display: flex;
         justify-content: center;
     }
+
     /* Landing page */
     #landing-page {
         width: 100%;
@@ -477,6 +494,7 @@ footer {
     #hero3 {
         display: flex;
     }
+
     #hero1-text1 {
         top: 8%;
         left: 8%;
@@ -498,34 +516,35 @@ footer {
         width: 31%;
         font-size: 118%;
     }
-    
+
     #new-player-info {
         position: absolute;
         top: 17em;
         right: 28em;
         width: 29%;
     }
-    
+
     #two-player-info {
         position: absolute;
         top: 23em;
         left: 6.5em;
         width: 29%;
     }
-    
+
     #fav-games-info {
         position: absolute;
         top: 17.5em;
         left: 27em;
         width: 38%;
     }
-    
+
     #mailing-list {
         position: absolute;
         position: absolute;
         bottom: 13em;
         left: 30em;
     }
+
     /* this lines up the top of the images in larger screens*/
     .section-content {
         display: flex;
