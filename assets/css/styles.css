@@ -58,10 +58,9 @@ they are not together anymore */
 #logo {
     white-space: nowrap;
     text-transform: capitalize;
-    letter-spacing: 3px;
     min-height: 1.5em;
     margin-top: .35em;
-    margin-bottom: -.25em;
+    /*margin-bottom: -.25em;*/
     flex-shrink: 1;
 }
 
@@ -419,6 +418,12 @@ footer {
     color: white;
 }
 
+@media screen and (min-width: 340px) {
+    #logo {
+        letter-spacing: 3px;
+    }
+}
+
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -567,6 +572,7 @@ footer {
         margin-right: 2rem;
         gap: 15px;
     }
+
     /* footer */
     footer {
         display: flex;
