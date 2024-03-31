@@ -372,7 +372,7 @@ main {
 
 #noninput-form-elements h2,
 h4 {
-    text-justify: center;
+    text-align: center;
 }
 
 /* styles input elements and their labels */
