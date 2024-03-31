@@ -15,7 +15,7 @@
 
 ## Introduction <a name="intro"></a>
 
-[Landing page responsive screenshot](/assets/images/screenshots/landing-page-screenshot.png)
+![Landing page responsive screenshot](/assets/images/screenshots/landing-page-screenshot.png)
 
 ### Project Description
 This site is a collection of recommendations for different boardgames and cardgames for people new to the hobby. There are pages devoted to 2 player games, games for new players, and the authors personal favorite games. Information on specific games is accompanied by links to relevant external sites. 
@@ -33,21 +33,41 @@ The site does not have information on that many games, but the design is such th
 
 ## Features <a name="features"></a>
 #### Navbar
-There is a navbar at the top of the page. For screens of width less than 768px, the navbar is hidden. Clicking on the header of the page will toggle the navbar, which drops down below the header.
+There is a navbar at the top of the page. For screens of width less than 768px, the navbar is hidden. 
+
+![mobile navbar hidden](/assets/images/screenshots/mobile-navbar-hidden.png)
+
+Clicking on the burger icon will toggle the navbar, which drops down below the header.
+
+![mobile navbar displayed](/assets/images/screenshots/mobile-navbar-displayed.png)
 
 On larger screens, it displays horizontally beneath the header. Also, the current page is highlighted and hovering over an item will cause it to be underlined.
 
-#### Footer
-The footer contains (so far) links to social media sites. These open in new tabs and only go to the main page of the respective social media site. The links are social media icons.
+![tablet navbar](/assets/images/screenshots/tablet-navbar.png)
 
 #### Content pages
-There are 3 pages of content. They each relate to a different (but potentially overlapping) category of games: games for 2 players, games for new players, and the authors favorite games. Each page contains entries on multiple games. Each entry contains an image of the boardgame cover, a brief blurb about the game from the author, and links to external sites regarding the game.
+There are 3 pages of content. They each relate to a different (but potentially overlapping) category of games: games for 2 players, games for new players, and the authors favorite games. Each page contains entries on multiple games. 
+
+![content page for two player games](/assets/images/screenshots/content-page-screenshot.png)
+
+Each entry contains an image of the boardgame cover, a brief blurb about the game from the author, and links to external sites regarding the game.
 
 #### Links to external resources
-hese external links are to the games page on BGG (the definitive online resource for boardgames), and reviews on youtube. The primary reviews are to the YouTube channels Shut Up and Sit Down, and the Dice Tower. These are the two most dominant review channels on YouTube.
+These external links are to the games page on BGG (the definitive online resource for boardgames), and reviews on youtube (when available). The primary reviews are to the YouTube channels Shut Up and Sit Down, and the Dice Tower. These are the two most influential review channels on YouTube.
+
+![external links to BGG, SUSD, and DT](/assets/images/screenshots/external-links.png)
+
+#### Footer
+The footer contains links to social media sites. These open in new tabs and only go to the main page of the respective social media site. The links are social media icons. They are displayed differently on mobile and desktop screens.
+
+![mobile social media links](/assets/images/screenshots/mobile-social-links.png)
+
+![desktop social media links](/assets/images/screenshots/desktop-social-links.png)
 
 #### Signup form
 The signup form "subscribes users to a mailing list". It asks for first name, favorite game, and email address.
+
+![form page on different devices](/assets/images/screenshots/form-page-screenshot.png)
 
 #### Features left to implement
 - Pages for other categories of games
