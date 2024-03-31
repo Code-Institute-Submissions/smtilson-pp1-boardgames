@@ -59,6 +59,9 @@ header {
     display: flex;
     flex-direction: column;
     flex-basis: 75%;
+    font-size: 87%;
+    position: relative;
+    top: -5px;
 }
 
 #logo {
@@ -116,19 +119,18 @@ nav {
     align-items: center;
 }
 
-
 /* is there a way to address this more responsively? */
 #icon-div {
     flex-basis: 20%;
+    position: relative;
+    top: -3em;
+    left: 90%;
 }
 
 #nav-toggle-icon {
     font-size: 225%;
     margin-bottom: -2.5rem;
     align-self: center;
-    position: relative;
-    top: 32%;
-    left: 13%;
 }
 
 /* displays nav section when clicked*/
