@@ -26,8 +26,24 @@ The purpose of the site is to inform people new to the hobby about different gam
 ### User Demographics
 The expected user is someone who has some experience with hobby boardgames and cardgames. They are interested in trying new games and determining what they do and do not like.
 
-### Design Process and Wireframing
+### Wireframes
 After the initial idea and brainstorming, I used Balsamiq to mock up some initial wireframes. While I did not stick completely to the wireframes, they were helpful in terms of visualizing the kind of design I was interested in.
+
+#### Site Plan
+Here is the initial siteplan:
+![Initial site plan wireframe](/assets/images/wireframes/wireframe-site-plan.png)
+- I decided to not do a different page for each game, and to just put info on all of the games from that category on the same page. My mentor supported this idea.
+- I used different games than those listed here as they were place holders.
+
+#### Content pages
+I then designed the pages that would contain the majority of the content of the site.
+Desktop:
+![Desktop content page wireframe](/assets/images/wireframes/wireframe-desktop-content-page.png)
+
+Mobile:
+![mobile content page wireframe](/assets/images/wireframes/wireframe-mobile-content-page.png)
+
+For desktop, I changed the styling to columns from rows as I felt it looked nicer. This also increased the continuity of design between mobile and desktop view. I used rounded squares because I also liked their appearance. It was also a nice compromise between squares of the desktop design plan and the mobile design plan. I had intially wanted the different containers to overlap, but found that it did not look as clean in practice as I had envisioned.
 
 ### Future directions
 The site does not have information on that many games, but the design is such that it can be extended to include details of many other games.
