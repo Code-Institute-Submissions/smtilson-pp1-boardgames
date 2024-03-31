@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--should I have minimum-scale=1 in the above sontent? doesn't seem to do anything.-->
     <!-- Search Engine Optimization -->
     <meta name="description" content="Sean Recommends boardgames for 2 players and for new players">
     <meta name="keywords" content="boardgames, 2-player games, games for new players">
@@ -18,26 +19,32 @@
 
 <body>
     <header>
+        <!-- causes whole header to be clickable and expand mobile navbar -->
         <label for="nav-toggle" id="nav-toggle-label">
             <div id="logo-div">
                 <h1 id="logo">Sean Recommends</h1>
             </div>
+            <!-- div used to position icon -->
             <div id="icon-div">
+            <!-- the presence of this icon is to indicate that the region is clickable -->
                 <i class="fa-solid fa-bars" id="nav-toggle-icon"></i>
             </div>
         </label>
         <input type="checkbox" id="nav-toggle">
+        <!-- navbar section -->
         <nav>
             <ul id="nav-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="fav-games.html" class="active">My Faves</a></li>
-                <li><a href="2-player.html">2 Player games</a></li>
                 <li><a href="new-player.html">Intro Games</a></li>
+                <li><a href="2-player.html">2 Player games</a></li>
+                <li><a href="fav-games.html" class="active">My Faves</a></li>
                 <li><a href="form.html">Mailing List</a></li>
             </ul>
         </nav>
     </header>
+    <!-- main -->
     <main>
+        <!-- this section lines up the tops of the images -->
         <section class="section-content">
             <div class="container">
                 <img src="assets/images/boardgame-covers/arkham-horror-lcg.webp" class="game-cover" alt="Circle cropped image of Arkham Horror: the Card Game box cover">
