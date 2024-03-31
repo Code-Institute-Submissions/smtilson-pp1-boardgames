@@ -251,6 +251,10 @@ main {
     position: relative;
 }
 
+.hero2-first-block-text {
+    width:100%;
+}
+
 /* second container for content on second hero image*/
 #hero2-column-block {
     display: flex;
