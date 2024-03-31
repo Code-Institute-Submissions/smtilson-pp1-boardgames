@@ -252,7 +252,7 @@ main {
 }
 
 .hero2-first-block-text {
-    width:100%;
+    width: 100%;
 }
 
 /* second container for content on second hero image*/
@@ -341,6 +341,7 @@ main {
 
 
 /* form styles */
+/*helps positions form */
 #signup-section {
     display: flex;
     flex-direction: column;
@@ -354,9 +355,12 @@ main {
     padding: 1.5em;
     border-radius: 18%;
     width: 90%;
+    /*width: fit-content;*/
     align-self: center;
     align-items: center;
     gap: 10px;
+    position: relative;
+    top: 1em;
 }
 
 /* styles for noninput elements of form*/
@@ -594,6 +598,11 @@ footer {
 
     /* end of content page styles */
 
+    /* form styles */
+    #signup-form {
+        top: -3em   
+    }
+
     /* footer */
     footer {
         display: flex;
@@ -641,6 +650,7 @@ footer {
     .content-header {
         width: 96%;
     }
+
     /* adjusts font to larger screens */
     #landing-page {
         font-size: 120%;
@@ -650,7 +660,7 @@ footer {
     main {
         margin-top: 171px;
     }
-    
+
     /* adjusts size of content on landing page for larger screens */
     #hero2-content-large-screen {
         height: 20em;
@@ -659,8 +669,11 @@ footer {
 
 
 @media screen and (min-width: 1440px) {
+
     /* adjusts font size on for larger screens */
-    #landing-page, .content-header, .content {
+    #landing-page,
+    .content-header,
+    .content {
         font-size: 150%;
     }
 }
