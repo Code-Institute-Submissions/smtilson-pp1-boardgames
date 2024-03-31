@@ -53,12 +53,6 @@ header {
     /*border-bottom: 3px solid #3a3a3a;*/
     border-bottom: 3px solid white;
 }
-/*
-header a {
-    text-decoration: none;
-    /*color: #3a3a3a;*/
-   /* color: white;
-}*/
 
 /* logo styles */
 #logo-div {
@@ -72,8 +66,6 @@ header a {
     text-transform: capitalize;
     min-height: 1.5em;
     margin-top: .35em;
-    /*margin-bottom: -.25em;*/
-    flex-shrink: 1;
 }
 
 
@@ -165,74 +157,6 @@ main {
     margin-top: -3.6em;
     font-size: 99%;
 }
-/*
-#landing-page a {
-    text-decoration: none;
-    color: white;
-}*/
-
-#mobile-lp {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-}
-
-#hero1 {
-    background: url('../images/hero-images/hero1-img.jpg') no-repeat center center/cover;
-    width: 100%;
-    height: 372px;
-}
-
-#hero2 {
-    background: url('../images/hero-images/hero2-img.jpg') no-repeat center center/cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-}
-
-#hero2-first-block {
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    justify-content: center;
-    align-items: center;
-    margin: 0% 6% 0% 6%;
-    position: relative;
-}
-
-.hero2-first-block-text {
-    color: white;
-}
-
-#hero2-column-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 6%;
-    margin-right: 6%;
-    position: relative;
-    height: 18em;
-    bottom: -1.5em;
-}
-
-#hero3 {
-    background: url('../images/hero-images/hero3-img.jpg') no-repeat center center/cover;
-    display: none;
-}
-
-.hero-div {
-    height: 600px;
-    width: 100%;
-    display: flex;
-    position: relative;
-}
-
-.position-absolute {
-    position: absolute;
-}
 
 .landing-page-text {
     display: flex;
@@ -246,8 +170,23 @@ main {
     height: fit-content;
 }
 
-.transparent-background {
-    background: transparent;
+/* div for hero images */
+.hero-div {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+/* utility classes */
+
+.bold {
+    font-weight: 900;
+    display: contents;
+}
+
+.position-absolute {
+    position: absolute;
 }
 
 .centered-text {
@@ -259,6 +198,26 @@ main {
     border: 1.5px solid white;
     border-radius: 10px;
     margin: -1.5px;
+}
+/* prevents smaller elements from also having a background */
+.transparent-background {
+    background: transparent;
+}
+
+/* mobile landing page styles*/
+
+/* orients mobile landing page container*/
+#mobile-lp {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+/* hero1 styles */
+#hero1 {
+    background: url('../images/hero-images/hero1-img.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 372px;
 }
 
 /* positions cover-text for hero1 image */
@@ -274,6 +233,46 @@ main {
     font-size: 94%;
 }
 
+/* hero2 styles */
+#hero2 {
+    background: url('../images/hero-images/hero2-img.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+/* first container for content on second hero image */
+#hero2-first-block {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 6% 0% 6%;
+    position: relative;
+}
+
+/* second container for content on second hero image*/
+#hero2-column-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    position: relative;
+    height: 18em;
+    bottom: -1.5em;
+}
+
+
+#hero3 {
+    background: url('../images/hero-images/hero3-img.jpg') no-repeat center center/cover;
+    display: none;
+}
+
 /* content pages styling */
 .container {
     display: flex;
@@ -283,13 +282,15 @@ main {
     margin-bottom: 22px;
 }
 
+/* styles game cover images */
 .game-cover {
     height: 65vw;
     width: 65vw;
     margin-top: 2em;
     margin-bottom: 2em;
-    /* Makes the square image into a circle */
+    /* rounds corners of image */
     border-radius: 18%;
+    /* keeps images from growing too much on larger screens */
     max-width: 300px;
     max-height: 300px;
     align-self: center;
@@ -303,6 +304,7 @@ main {
     border-radius: 10px;
 }
 
+/* styles headers for content sections */
 .content-header {
     position: relative;
     width: 85%;
@@ -313,6 +315,7 @@ main {
     justify-content: center;
 }
 
+/* styles text boxes */
 .content {
     margin: 2vh;
     max-width: 80vw;
@@ -320,71 +323,24 @@ main {
     align-self: center;
 }
 
+/* styles links to external sites */
 .links {
     list-style-type: none;
     display: flex;
     position: relative;
-    /* width: fit-content; */
     align-items: center;
     justify-content: space-around;
     padding: 0.7rem 0;
     margin-left: 3rem;
     margin-right: 3rem;
 }
-/*
-.links a {
-    text-decoration: none;
-}*/
 
 .links a:hover {
     /*border-bottom: 1.5px solid #3a3a3a;*/
     border-bottom: 1.5px solid white;
 }
 
-.bold {
-    font-weight: 900;
-    display: contents;
-}
-
-.bgg-logo {
-    height: 50px;
-    width: 72px;
-    position: absolute;
-    left: 42px;
-}
-
-.susd-logo {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    left: 140px;
-}
-
-.dt-logo {
-    height: 63px;
-    width: 50px;
-    position: absolute;
-    right: 45px;
-    top: -8px;
-}
-
-/*
-.content-div, .content-p {
-    display: flex;
-    justify-content: center;
-}
-
-.content-p {
-    border: 3px solid #3a3a3a;
-    border-radius: 10px;
-    background-color: #E5E4E2;
-    background-color: black;
-    margin: 2vh;
-    max-width: 80vw;
-    padding: .7rem .7rem 2rem .7rem;
-}
-*/
-
+/* end content page styles */
 /* form styles */
 #signup-section {
     display: flex;
