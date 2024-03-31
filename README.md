@@ -117,40 +117,40 @@ The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" 
 ### Bugs
 - Bug: The landing page, the hover border on links caused them to visually move.
 
-- - Fix: I fixed this by adding a margin with negative width equal to the width of the border being added. I learned this from reference [SO: hover bug](#so-hover-reference).
+ - Fix: I fixed this by adding a margin with negative width equal to the width of the border being added. I learned this from reference [SO: hover bug](#so-hover-reference).
 
 - Bug: Headers on content pages were not regularly spaced.
 
-- - Fix: Flex boxes were used. To make the style consistent across screen sizes, I used media queries.
+   - Fix: Flex boxes were used. To make the style consistent across screen sizes, I used media queries.
 
 <a name="tutor-support-bug"></a>
 - Bug: Header and footer were cutting off part of the main element. I had styled it so that the main element scrolled beneath the navbar and social media links. This made it very hard to make it look good across different devices as I had to fiddle with the margin-top of main as well as the height of certain elements.
 
-- - Fix: I removed the fancy scrolling of the main element. Now the footer cuts off some content, which is expected behavior. This was suggested by Tutor support. So ultimately, better design was the solution.
+   - Fix: I removed the fancy scrolling of the main element. Now the footer cuts off some content, which is expected behavior. This was suggested by Tutor support. So ultimately, better design was the solution.
 
 - Bug: A strong element caused text to be pushed to the next line in the Earthborne Rangers section.
 
-- - Fix: Instead, I used a span element that was specifically styled to bold an element and had display:contents as a rule. This was suggested by [SO strong tags new line](#so-strong-new-line).
+   - Fix: Instead, I used a span element that was specifically styled to bold an element and had display:contents as a rule. This was suggested by [SO strong tags new line](#so-strong-new-line).
 
 - Bug: I was using logos for the external links but they were not responsive and very difficult.
 
-- - Fix: I decided to use text with abbreviations for the website or channel for those external links.
+   - Fix: I decided to use text with abbreviations for the website or channel for those external links.
 
 - Bug: After removing h3 subtitle element from header, the underline underneath logo was cut off.
 
-- - Fix: I removed the margin-bottom rule on the id logo
+   - Fix: I removed the margin-bottom rule on the id logo
 
 - Bug: On the landing page, the elements with text have darker background than the div.
 
-- - Fix: What was happening was that two backgrounds where adding to each other so I fixed this by making the background of child elements transparent.
+   - Fix: What was happening was that two backgrounds where adding to each other so I fixed this by making the background of child elements transparent.
 
 - Bug: There was a black line between main and header, underneath the bottom border from the header element.
 
-- - Fix: I removed this by changing the background-color of the body and modifying background-color inheritance so that by default everything inherits background-color from its parent.
+   - Fix: I removed this by changing the background-color of the body and modifying background-color inheritance so that by default everything inherits background-color from its parent.
 
 - Bug: The Onitama image was very stretched and weird.
 
-- - Fix: This is due to the box for the game being a different shape. To address this I got the image from a different source and cropped it to have a more workable aspect ratio.
+   - Fix: This is due to the box for the game being a different shape. To address this I got the image from a different source and cropped it to have a more workable aspect ratio.
 [return to Table of Contents](#toc)
 
 ## Deployment <a name="deployment"></a>
