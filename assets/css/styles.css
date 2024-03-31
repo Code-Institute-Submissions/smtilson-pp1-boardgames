@@ -429,7 +429,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 425px) {
 
     /* repositions botom links on landing page for larger mobile screens*/
     #hero2-column-block {
