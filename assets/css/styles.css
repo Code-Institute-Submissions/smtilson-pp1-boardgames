@@ -91,6 +91,7 @@ header a {
     border: 1.5px solid white;
     padding: 1px 5px;
     border-radius: 5px;
+    margin: -1.5px;
 }
 
 #nav-menu {
