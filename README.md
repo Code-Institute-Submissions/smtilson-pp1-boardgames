@@ -46,7 +46,7 @@ On larger screens, it displays horizontally beneath the header. Also, the curren
 ![tablet navbar](/assets/images/screenshots/tablet-navbar.png)
 
 #### Content pages
-There are 3 pages of content. They each relate to a different (but potentially overlapping) category of games: games for 2 players, games for new players, and the authors favorite games. Each page contains entries on multiple games. 
+There are 3 pages of content. They each relate to a different (but potentially overlapping) category of games: games for 2 players, games for new players, and my favorite games. Each page contains entries on multiple games. 
 
 ![content page for two player games](/assets/images/screenshots/content-page-screenshot.png)
 
@@ -81,6 +81,10 @@ I used dev tools in chrome to test the responsiveness of the site. I also used [
 
 On larger screens, I had planned to have the main content of the pages scroll underneath the logo, navbar, and social links while appearing above the rest of the header and footer. This caused positioning problems when transitioning between screens. The reason for this is that dev tools can not take into account the amount of space 
 ### Validation
+Each html file was validated using [W3 html validator](https://validator.w3.org/). I had 1 error. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. I did this so that the whole header worked as a toggle for the navbar dropdown menu.
+
+The CSS file was validated using [W3 CSS Jigsaw validator](https://jigsaw.w3.org/css-validator/). There was a minor error which was easily fixed. There were also warnings regarding the font imports from google
+
 ### Bugs
 
 [return to Table of Contents](#toc)
@@ -120,6 +124,13 @@ In particular
 
 #### Mentor
 I received a lot of support from my mentor. This took the form of helpful tips, explaining what to focus on in terms of prioritization, and which design decisions were relevant for the assessment criteria.
+
+#### Feedback on Slack
+- Daisy_mentor
+She pointed out to me that it would be good to decrease the size of the h1 header element on screens smaller than 360px. She also pointed out to me that my form button wasn't working. These things have been corrected for.
+
+- Fellow students
+In this [thread](https://code-institute-room.slack.com/archives/C06N62J3TKQ/p1711707098566759), some of my fellow students pointed out how I could use dev tools properly. Specifically, to help with positioning of elements.
 
 #### StackOverflow
 -[Stackoverflow: single line](https://stackoverflow.com/questions/44696874/forcing-a-h1-to-stay-in-1-line): keeping logo in one line.
