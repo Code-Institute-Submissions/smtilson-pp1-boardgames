@@ -1,3 +1,4 @@
+/* CSS validated */
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -14,8 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* background-color: #36454F; */
-    background-color: black;
+    background-color: #31363F;
     /*color: #3a3a3a;*/
     color: white;
     font-family: "Roboto", sans-serif;
@@ -50,8 +50,8 @@ header {
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
-    /*border-bottom: 3px solid #3a3a3a;*/
     border-bottom: 3px solid white;
+    background-color: #222831;
 }
 
 /* logo styles */
@@ -99,7 +99,7 @@ nav {
     display: none;
     top: 100%;
     /*background-color: #E5E4E2;*/
-    background-color: black;
+    background-color: #222831;
 }
 
 /* indicates which page a user is on */
@@ -167,7 +167,7 @@ main {
     display: flex;
     flex-direction: column;
     /* this syle needs to be addressed later */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(34, 40, 49,0.6);
     width: 60%;
     padding: 10px;
     border-radius: 10px;
@@ -303,7 +303,7 @@ main {
 .box {
     /*border: 3px solid #3a3a3a;*/
     /*background-color: #E5E4E2;*/
-    background-color: black;
+    background-color: #31363F;
     border: 3px solid white;
     border-radius: 10px;
 }
@@ -317,6 +317,7 @@ main {
     align-self: center;
     display: flex;
     justify-content: center;
+    background-color: #222831;
 }
 
 /* styles text boxes */
@@ -325,6 +326,7 @@ main {
     max-width: 80vw;
     padding: .7rem .7rem 1rem .7rem;
     align-self: center;
+    background-color: #222831;
 }
 
 /* styles links to external sites */
@@ -337,6 +339,7 @@ main {
     padding: 0.7rem 0;
     margin-left: 3rem;
     margin-right: 3rem;
+    background-color: #222831;
 }
 
 /* end content page styles */
@@ -363,6 +366,7 @@ main {
     gap: 10px;
     position: relative;
     top: 1em;
+    background-color: #222831;
 }
 
 /* styles for noninput elements of form*/
@@ -395,6 +399,7 @@ footer {
     bottom: 0;
     width: 100vw;
     z-index: 99;
+    background-color:#222831;
 }
 
 /* styles element containing social links*/
@@ -442,7 +447,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: black;
+        background-color: #31363F;
         z-index: 99;
     }
 
@@ -466,7 +471,7 @@ footer {
         width: fit-content;
         padding: .35rem .7rem;
         /*background-color: #E5E4E2;*/
-        background-color: black;
+        background-color: #222831;
         justify-content: space-around;
     }
 
@@ -609,7 +614,7 @@ footer {
     footer {
         display: flex;
         justify-content: center;
-        background-color: black;
+        background-color: #31363F;
     }
 
     #social-networks {
@@ -617,7 +622,7 @@ footer {
         /*should this position rule be commented out*/
         /*position: relative;*/
         /*background-color: #E5E4E2;*/
-        background-color: black;
+        background-color: #31363F;
         margin: 0 1em 1em 1em;
         padding: 1rem;
         min-width: 50vw;
@@ -626,7 +631,7 @@ footer {
         border-radius: 10px;
         justify-content: space-around;
         z-index: 99;
-        background-color: black;
+        background-color: #222831;;
     }
 }
 
