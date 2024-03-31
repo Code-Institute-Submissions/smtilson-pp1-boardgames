@@ -45,10 +45,17 @@ Mobile:
 
 For desktop, I changed the styling to columns from rows as I felt it looked nicer. This also increased the continuity of design between mobile and desktop view. I used rounded squares because I also liked their appearance. It was also a nice compromise between squares of the desktop design plan and the mobile design plan. I had intially wanted the different containers to overlap, but found that it did not look as clean in practice as I had envisioned.
 
+#### Landing page
+Desktop:
+![Desktop landing page](/assets/images/wireframes/wireframe-desktop-landing-page.png)
+
+Mobile:
+![Mobile landing page](/assets/images/wireframes/wireframe-mobile-landing-page.png)
+
+I kept some of the ideas present and elaborated on them.
+
 ### Future directions
 The site does not have information on that many games, but the design is such that it can be extended to include details of many other games.
-
-
 
 [return to Table of Contents](#toc)
 
@@ -98,7 +105,7 @@ The signup form "subscribes users to a mailing list". It asks for first name, fa
 
 ## Testing <a name="testing"></a>
 ### Manual Testing
-I used dev tools in chrome to test the responsiveness of the site. I also used <a href="https://ui.dev/amiresponsive" target="_blank">AmIResponsive</a> to help me determine how things would look on different sites. I primarily checked on screen widths of 320px, 375px, 425px, 768px, 916px (my laptop), and 1024px. I had to also adjust the height manually, as changing the width did not seem to always impact the height in chrome dev tools. Because of this, I manually entered 375×667, 414×736, 360×800, 390×844 (these were suggested by [TestSigma](https://testsigma.com/blog/common-screen-resolutions/)).
+I used dev tools in chrome to test the responsiveness of the site. I also used <a href="https://ui.dev/amiresponsive" target="_blank">AmIResponsive</a> to help me determine how things would look on different sites. I primarily checked on screen widths of 320px, 375px, 425px, 768px, 916px (my laptop), and 1024px. I had to also adjust the height manually, as changing the width did not seem to always impact the height in chrome dev tools. Because of this, I manually entered 375×667, 414×736, 360×800, 390×844 (these were suggested by <a href="https://testsigma.com/blog/common-screen-resolutions/" target="_blank">TestSigma</a>).
 
 On larger screens, I had planned to have the main content of the pages scroll underneath the logo, navbar, and social links while appearing above the rest of the header and footer. This caused positioning problems when transitioning between screens. The reason for this is that dev tools can not take into account the amount of space 
 
@@ -116,7 +123,7 @@ To deploy the project follow the following steps.
 
 1. Copy/Clone the <a href="https://github.com/smtilson/pp1-boardgames" target="_blank">repository</a> on github.
 
-2. Go to your copy of the repository on your github page (likely https://github.com/YOUR-USERNAME-HERE/pp1-boardgames)
+2. Go to your copy of the repository on your github page (likely `https://github.com/YOUR-USERNAME-HERE/pp1-boardgames`)
 
 3. Open settings tab on top right of page
 
@@ -128,7 +135,7 @@ To deploy the project follow the following steps.
 
 7. On the right hand side under "Deployments", click on "github-pages".
 
-8. Click on the link which matches https://USERNAME.github.io/REPO-NAME/ to view the deployed site.
+8. Click on the link which matches `https://USERNAME.github.io/REPO-NAME/` to view the deployed site.
 
 [return to Table of Contents](#toc)
 
@@ -158,6 +165,8 @@ In this <a href="https://code-institute-room.slack.com/archives/C06N62J3TKQ/p171
 - <a href="https://stackoverflow.com/questions/44696874/forcing-a-h1-to-stay-in-1-line" target="_blank">Stackoverflow: single line</a>: keeping logo in one line.
 
 - <a href="https://stackoverflow.com/questions/67252231/what-is-the-purpose-of-this-purple-dashed-line-area" target="_blank">Stackoverflow: purple dashed line</a> to explain purple dashed area in chrome dev tools
+
+- <a href="https://stackoverflow.com/questions/25706012/how-do-i-prevent-auto-generated-links-in-the-github-wiki" target="_blank">Stackoverflow: prevent auto generated links in readme</a> to make urls not automatically links for this readme file
 
 #### Images
 Images for game covers:
