@@ -98,6 +98,7 @@ nav {
     /*background-color: #E5E4E2;*/
     background-color: black;
 }
+
 /* indicates which page a user is on */
 .active {
     /*border: 1.5px solid #3a3a3a;*/
@@ -106,6 +107,7 @@ nav {
     border-radius: 5px;
     margin: -1.5px;
 }
+
 /* nav toggle icon styles*/
 #nav-toggle-label {
     width: 100vw;
@@ -128,12 +130,13 @@ nav {
     top: 32%;
     left: 13%;
 }
+
 /* displays nav section when clicked*/
 #nav-toggle:checked~nav {
     display: block;
 }
 
- /* hides nav section until clicked*/
+/* hides nav section until clicked*/
 #nav-toggle {
     display: none;
 }
@@ -193,12 +196,6 @@ main {
     text-align: center;
 }
 
-.hover-border:hover {
-    /*border-bottom: 1.5px solid #3a3a3a;*/
-    border: 1.5px solid white;
-    border-radius: 10px;
-    margin: -1.5px;
-}
 /* prevents smaller elements from also having a background */
 .transparent-background {
     background: transparent;
@@ -335,12 +332,9 @@ main {
     margin-right: 3rem;
 }
 
-.links a:hover {
-    /*border-bottom: 1.5px solid #3a3a3a;*/
-    border-bottom: 1.5px solid white;
-}
-
 /* end content page styles */
+
+
 /* form styles */
 #signup-section {
     display: flex;
@@ -348,6 +342,7 @@ main {
     flex-shrink: 1;
 }
 
+/* styles actual form element*/
 #signup-form {
     display: flex;
     flex-direction: column;
@@ -359,9 +354,8 @@ main {
     gap: 10px;
 }
 
+/* styles for noninput elements of form*/
 #noninput-form-elements {
-    /*display: flex;
-    flex-direction: column;*/
     width: 60%;
 }
 
@@ -370,6 +364,7 @@ h4 {
     text-justify: center;
 }
 
+/* styles input elements and their labels */
 #input-fields {
     display: flex;
     flex-direction: column;
@@ -380,8 +375,10 @@ h4 {
     margin-top: 10px;
 }
 
-/* footer */
+/* end form styles */
 
+
+/* footer */
 footer {
     position: fixed;
     bottom: 0;
@@ -389,6 +386,7 @@ footer {
     z-index: 99;
 }
 
+/* styles element containing social links*/
 #social-networks {
     /*border-top: 3px solid #3a3a3a;*/
     border-top: 3px solid white;
@@ -399,6 +397,7 @@ footer {
     list-style-type: none;
 }
 
+/* styles actual social links*/
 #social-networks i {
     font-size: 160%;
     padding: 5%;
@@ -407,17 +406,22 @@ footer {
 }
 
 @media screen and (min-width: 340px) {
+
+    /* adjusts spaceing of regular mobile screens */
     #logo {
         letter-spacing: 3px;
     }
 }
 
 @media screen and (min-width: 414px) {
+
+    /* repositions botom links on landing page for larger mobile screens*/
     #hero2-column-block {
         bottom: -2.5em;
     }
 }
 
+/* tablet and larger styles */
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -431,6 +435,17 @@ footer {
         z-index: 99;
     }
 
+    #logo {
+        font-size: 3rem;
+        line-height: 75px;
+        margin: 0 0.5rem;
+        /*background: transparent;*/
+        z-index: 99;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* navbar styles for non-mobile screens */
     nav {
         display: flex;
         position: relative;
@@ -460,23 +475,12 @@ footer {
         flex-direction: column;
     }
 
-    #logo {
-        font-size: 3rem;
-        line-height: 75px;
-        margin: 0 0.5rem;
-        /*background: transparent;*/
-        z-index: 99;
-    }
-
-    #tag-line,
-    #logo {
-        display: flex;
-        justify-content: center;
-    }
-
+    /* removes navbar icon on larger screens */
     #icon-div {
         display: none;
     }
+
+    /* end header styles*/
 
     /* main content */
     main {
@@ -486,21 +490,25 @@ footer {
         justify-content: center;
     }
 
-    /* Landing page */
+    /* Landing page styles*/
     #landing-page {
         width: 100%;
+        /* is this necessary */
     }
 
+    /* removes mobile landing page elements */
     #hero1,
     #hero2 {
         display: none;
     }
 
+    /* causes larger screen landing page background to appear */
     #hero3 {
         display: flex;
         height: 38em;
     }
 
+    /* position adjustments for hero1 text on larger screens */
     .hero1-text1 {
         top: 8%;
         left: 8%;
@@ -515,6 +523,7 @@ footer {
         height: fit-content;
     }
 
+    /* styles the content of hero2 for larger screens*/
     #hero2-content-large-screen {
         display: flex;
         flex-direction: column;
@@ -548,12 +557,14 @@ footer {
         height: 6em;
     }
 
-    /* this lines up the top of the images in larger screens*/
+    /* end landing page styles */
+
+    /* content page styles */
+    /* lines up the top of the images in larger screens*/
     .section-content {
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
-        /* not sure if this is the right factor that I want */
         gap: 1rem;
     }
 
@@ -568,12 +579,15 @@ footer {
         width: 94%;
     }
 
+    /* styles external links for larger screens */
     .links {
         padding: 0.7rem 1rem;
         margin-left: 2rem;
         margin-right: 2rem;
         gap: 15px;
     }
+
+    /* end of content page styles */
 
     /* footer */
     footer {
@@ -600,27 +614,39 @@ footer {
     }
 }
 
-
+/* adjusts for screens the size of my laptop and larger */
 @media screen and (min-width: 916px) {
-    #nav-menu a:hover {
+
+    /* adds hover to links on non-touch screen devices */
+    #nav-menu a:hover,
+    .links a:hover {
         /*border-bottom: 1.5px solid #3a3a3a;*/
         border-bottom: 1.5px solid white;
+    }
+
+    /* adds border on hover to links on landing page for larger screens*/
+    .hover-border:hover {
+        /*border-bottom: 1.5px solid #3a3a3a;*/
+        border: 1.5px solid white;
+        border-radius: 10px;
+        margin: -1.5px;
     }
 
     /* adjusts content header for larger screens */
     .content-header {
         width: 96%;
     }
-
+    /* adjusts font to larger screens */
     #landing-page {
         font-size: 120%;
     }
 
-    /* fixes background to fit between footer and header */
+    /* adjusts main so it isn't covered by the header on larger screens */
     main {
         margin-top: 171px;
     }
-
+    
+    /* adjusts size of content on landing page for larger screens */
     #hero2-content-large-screen {
         height: 20em;
     }
@@ -628,7 +654,8 @@ footer {
 
 
 @media screen and (min-width: 1440px) {
-    #landing-page {
+    /* adjusts font size on for larger screens */
+    #landing-page, .content-header, .content {
         font-size: 150%;
     }
 }
