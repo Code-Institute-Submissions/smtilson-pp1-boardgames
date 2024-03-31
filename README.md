@@ -77,7 +77,7 @@ The signup form "subscribes users to a mailing list". It asks for first name, fa
 
 ## Testing <a name="testing"></a>
 ### Manual Testing
-I used dev tools in chrome to test the responsiveness of the site. I also used [AmIResponsive](https://ui.dev/amiresponsive.) to help me determine how things would look on different sites. I primarily checked on screen widths of 320px, 375px, 425px, 768px, 916px (my laptop), and 1024px. I had to also adjust the height manually, as changing the width did not seem to always impact the height in chrome dev tools. For mobile I checked heights between 700px and 840px
+I used dev tools in chrome to test the responsiveness of the site. I also used [AmIResponsive](https://ui.dev/amiresponsive.) to help me determine how things would look on different sites. I primarily checked on screen widths of 320px, 375px, 425px, 768px, 916px (my laptop), and 1024px. I had to also adjust the height manually, as changing the width did not seem to always impact the height in chrome dev tools. Because of this, I manually entered 375×667, 414×736, 360×800, 390×844 (these were suggested by [TestSigma](https://testsigma.com/blog/common-screen-resolutions/)).
 
 On larger screens, I had planned to have the main content of the pages scroll underneath the logo, navbar, and social links while appearing above the rest of the header and footer. This caused positioning problems when transitioning between screens. The reason for this is that dev tools can not take into account the amount of space 
 ### Validation

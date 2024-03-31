@@ -59,7 +59,7 @@ header {
     display: flex;
     flex-direction: column;
     flex-basis: 75%;
-    font-size: 87%;
+    font-size: 80%;
     position: relative;
     top: -5px;
 }
@@ -421,9 +421,10 @@ footer {
     color: white;
 }
 
-@media screen and (min-width: 340px) {
-
-    /* adjusts spaceing of regular mobile screens */
+@media screen and (min-width: 360px) {
+    #logo-div {
+        font-size: 87%;
+    }
     #logo {
         letter-spacing: 3px;
     }
