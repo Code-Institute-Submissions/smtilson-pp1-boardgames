@@ -7,27 +7,25 @@
 
 - [Title](#title)
 - [Introduction](#intro)
+- [Design Planes](#planes)
 - [Features](#features)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Credits and Outside Sources](#credits)
 
 ## Introduction <a name="intro"></a>
+
+[Landing page responsive screenshot](/assets/images/screenshots/landing-page-screenshot.png)
+
 ### Project Description
 This site is a collection of recommendations for different boardgames and cardgames for people new to the hobby. There are pages devoted to 2 player games, games for new players, and the authors personal favorite games. Information on specific games is accompanied by links to relevant external sites. 
-<!-- the below feaeture has not let been added. It will likely be the last feature, if at all.
-There is also a page of links to external resources relevant to the hobby.
--->
+
 ### Project Purpose
 The purpose of the site is to inform people new to the hobby about different games they may not be aware of. Not every game suits every person/group of players, and the site aims to help people make informed choices. Hundreds of new boardgames are released every year as the hobby and market grows. Providing information about games for different audiences is a valuable endeavor as the hobby can be expensive and time consuming.
 
 ### User Demographics
 The expected user is someone who has some experience with hobby boardgames and cardgames. They are interested in trying new games and determining what they do and do not like.
 
-provides overview of
-- what project is
-- why it exists
-- who it is intended for
 ### Future directions
 The site does not have information on that many games, but the design is such that it can be extended to include details of many other games.
 
@@ -50,6 +48,10 @@ hese external links are to the games page on BGG (the definitive online resource
 
 #### Signup form
 The signup form "subscribes users to a mailing list". It asks for first name, favorite game, and email address.
+
+#### Features left to implement
+- Pages for other categories of games
+- A page of Links to external resources
 
 [return to Table of Contents](#toc)
 
