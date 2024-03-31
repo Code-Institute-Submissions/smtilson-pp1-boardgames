@@ -535,7 +535,7 @@ footer {
     /* main content */
     main {
         /* push main content down */
-        margin-top: 155px;
+        margin-top: 161px;
         display: flex;
         justify-content: center;
         z-index: 50;
@@ -544,7 +544,6 @@ footer {
     /* Landing page */
     #landing-page {
         width: 100%;
-        margin-top: -3.5em;
     }
 
     #hero1,
@@ -668,15 +667,16 @@ footer {
     .content-header {
         width: 96%;
     }
-/* fixes background to fit between footer and header */
+
     #landing-page {
         font-size: 120%;
-         /* Landing page */
-        margin-top: -3em;
     }
-
+/* fixes background to fit between footer and header */
+    main {
+        margin-top: 171px;
+    }
     #hero3 {
-        height:31.2em;
+        height:28.5em;
     }
 
     #hero2-content-large-screen {
