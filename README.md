@@ -1,7 +1,7 @@
 # Title <a name="title"></a>
 ### Sean Recommends
 #### Boardgames for the Newly Converted
-[Sean Recommends Github pages link](https://smtilson.github.io/pp1-boardgames/index.html)
+<a href="https://smtilson.github.io/pp1-boardgames/index.html" target="_blank">Sean Recommends Github pages link</a>
 
 ## Table of contents <a name="toc"></a>
 
@@ -77,13 +77,14 @@ The signup form "subscribes users to a mailing list". It asks for first name, fa
 
 ## Testing <a name="testing"></a>
 ### Manual Testing
-I used dev tools in chrome to test the responsiveness of the site. I also used [AmIResponsive](https://ui.dev/amiresponsive.) to help me determine how things would look on different sites. I primarily checked on screen widths of 320px, 375px, 425px, 768px, 916px (my laptop), and 1024px. I had to also adjust the height manually, as changing the width did not seem to always impact the height in chrome dev tools. Because of this, I manually entered 375×667, 414×736, 360×800, 390×844 (these were suggested by [TestSigma](https://testsigma.com/blog/common-screen-resolutions/)).
+I used dev tools in chrome to test the responsiveness of the site. I also used <a href="https://ui.dev/amiresponsive" target="_blank">AmIResponsive</a> to help me determine how things would look on different sites. I primarily checked on screen widths of 320px, 375px, 425px, 768px, 916px (my laptop), and 1024px. I had to also adjust the height manually, as changing the width did not seem to always impact the height in chrome dev tools. Because of this, I manually entered 375×667, 414×736, 360×800, 390×844 (these were suggested by [TestSigma](https://testsigma.com/blog/common-screen-resolutions/)).
 
 On larger screens, I had planned to have the main content of the pages scroll underneath the logo, navbar, and social links while appearing above the rest of the header and footer. This caused positioning problems when transitioning between screens. The reason for this is that dev tools can not take into account the amount of space 
-### Validation
-Each html file was validated using [W3 html validator](https://validator.w3.org/). I had 1 error. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. I did this so that the whole header worked as a toggle for the navbar dropdown menu.
 
-The CSS file was validated using [W3 CSS Jigsaw validator](https://jigsaw.w3.org/css-validator/). There was a minor error which was easily fixed. There were also warnings regarding the font imports from google
+### Validation
+Each html file was validated using <a href="https://validator.w3.org/" target="_blank">W3html validator</a>. I had 1 error. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. I did this so that the whole header worked as a toggle for the navbar dropdown menu.
+
+The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 Jigsaw CSS validator</a>. There was a minor error which was easily fixed. There were also warnings regarding the font imports from google
 
 ### Bugs
 
@@ -92,7 +93,7 @@ The CSS file was validated using [W3 CSS Jigsaw validator](https://jigsaw.w3.org
 ## Deployment <a name="deployment"></a>
 To deploy the project follow the following steps.
 
-1. Copy/Clone the repository https://github.com/smtilson/pp1-boardgames on github.
+1. Copy/Clone the <a href="https://github.com/smtilson/pp1-boardgames" target="_blank">repository</a> on github.
 
 2. Go to your copy of the repository on your github page (likely https://github.com/YOUR-USERNAME-HERE/pp1-boardgames)
 
@@ -130,21 +131,27 @@ I received a lot of support from my mentor. This took the form of helpful tips, 
 She pointed out to me that it would be good to decrease the size of the h1 header element on screens smaller than 360px. She also pointed out to me that my form button wasn't working. These things have been corrected for.
 
 - Fellow students
-In this [thread](https://code-institute-room.slack.com/archives/C06N62J3TKQ/p1711707098566759), some of my fellow students pointed out how I could use dev tools properly. Specifically, to help with positioning of elements.
+In this <a href="https://code-institute-room.slack.com/archives/C06N62J3TKQ/p1711707098566759" target="_blank">thread</a>, some of my fellow students pointed out how I could use dev tools properly. Specifically, to help with positioning of elements.
 
 #### StackOverflow
--[Stackoverflow: single line](https://stackoverflow.com/questions/44696874/forcing-a-h1-to-stay-in-1-line): keeping logo in one line.
+- <a href="https://stackoverflow.com/questions/44696874/forcing-a-h1-to-stay-in-1-line" target="_blank">Stackoverflow: single line</a>: keeping logo in one line.
 
 #### Images
 Images for game covers:
-1. [Lost Cities on BGG](https://boardgamegeek.com/boardgame/50/lost-cities)
-2. [Fox in the Forest on BGG](https://boardgamegeek.com/boardgame/221965/fox-forest)
-3. [7 Wonders Duel on BGG](https://boardgamegeek.com/boardgame/173346/7-wonders-duel)
-4. [Arkham Horror: the Card Game on BGG](https://boardgamegeek.com/boardgame/205637/arkham-horror-card-game)
-5. [Earthborne Rangers on BGG](https://boardgamegeek.com/boardgame/342900/earthborne-rangers)
-6. [Heat on BGG](https://boardgamegeek.com/boardgame/366013/heat-pedal-metal)
-7. [Century: Spice Road on BGG](https://boardgamegeek.com/boardgame/209685/century-spice-road)
-8. [Onitama logo from amazon](https://m.media-amazon.com/images/I/51JxHhJQMmL._AC_.jpg)
-9. [Sagrada on BGG](https://boardgamegeek.com/boardgame/199561/sagrada)
+1. <a href="https://boardgamegeek.com/boardgame/50/lost-cities" target="_blank">Lost cities on BGG</a>
+2. <a href="https://boardgamegeek.com/boardgame/221965/fox-forest" target="_blank">Fox in the Forest on BGG</a>
+3. <a href="https://boardgamegeek.com/boardgame/173346/7-wonders-duel" target="_blank">7 Wonders Duel on BGG</a>
+4. <a href="https://boardgamegeek.com/boardgame/205637/arkham-horror-card-game" target="_blank">Arkham Horror: the Card Game on BGG</a>
+5. <a href="https://boardgamegeek.com/boardgame/342900/earthborne-rangers" target="_blank">Earthborne Rangers on BGG</a>
+6. <a href="https://boardgamegeek.com/boardgame/366013/heat-pedal-metal" target="_blank">Heat on BGG</a>
+7. <a href="https://boardgamegeek.com/boardgame/209685/century-spice-road" target="_blank">Century: Spice Road on BGG</a>
+8. <a href="https://m.media-amazon.com/images/I/51JxHhJQMmL._AC_.jpg" target="_blank">Onitama logo from amazon</a>
+9. <a href="https://boardgamegeek.com/boardgame/199561/sagrada" target="_blank">Sagrada on BGG</a>
+
+For this readme, I used <a href="https://ui.dev/amiresponsive" target="_blank">AmIResponsive</a> to generate images of my page on different screen sizes.
+
+To generate my favicon, I used this <a href="https://favicon.io/favicon-converter/" target="_blank">online favicon generator</a> with a <a href="https://stock.adobe.com/de/images/colorful-board-game-vector-template/222236135" target="_blank">stockimage photo</a>.
+
+I got the colors I used in my color palette from <a href="https://colorhunt.co/palette/22283131363f76abaeeeeeee" target="_blank">Color Hunt</a>.
 
 [return to Table of Contents](#toc)
