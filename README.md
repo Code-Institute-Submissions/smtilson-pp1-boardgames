@@ -27,7 +27,7 @@ The purpose of the site is to inform people new to the hobby about different gam
 The expected user is someone who has some experience with hobby boardgames and cardgames. They are interested in trying new games and determining what they do and do not like.
 
 ### Design Process and Wireframing
-After the initial idea and brainstorming, I used Balsamiq to mock up some initial wireframes.
+After the initial idea and brainstorming, I used Balsamiq to mock up some initial wireframes. While I did not stick completely to the wireframes, they were helpful in terms of visualizing the kind of design I was interested in.
 
 ### Future directions
 The site does not have information on that many games, but the design is such that it can be extended to include details of many other games.
