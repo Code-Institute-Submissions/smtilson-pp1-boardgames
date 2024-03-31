@@ -26,8 +26,13 @@ The purpose of the site is to inform people new to the hobby about different gam
 ### User Demographics
 The expected user is someone who has some experience with hobby boardgames and cardgames. They are interested in trying new games and determining what they do and do not like.
 
+### Design Process and Wireframing
+After the initial idea and brainstorming, I used Balsamiq to mock up some initial wireframes.
+
 ### Future directions
 The site does not have information on that many games, but the design is such that it can be extended to include details of many other games.
+
+
 
 [return to Table of Contents](#toc)
 
@@ -136,6 +141,8 @@ In this <a href="https://code-institute-room.slack.com/archives/C06N62J3TKQ/p171
 #### StackOverflow
 - <a href="https://stackoverflow.com/questions/44696874/forcing-a-h1-to-stay-in-1-line" target="_blank">Stackoverflow: single line</a>: keeping logo in one line.
 
+- <a href="https://stackoverflow.com/questions/67252231/what-is-the-purpose-of-this-purple-dashed-line-area" target="_blank">Stackoverflow: purple dashed line</a> to explain purple dashed area in chrome dev tools
+
 #### Images
 Images for game covers:
 1. <a href="https://boardgamegeek.com/boardgame/50/lost-cities" target="_blank">Lost cities on BGG</a>
@@ -148,10 +155,15 @@ Images for game covers:
 8. <a href="https://m.media-amazon.com/images/I/51JxHhJQMmL._AC_.jpg" target="_blank">Onitama logo from amazon</a>
 9. <a href="https://boardgamegeek.com/boardgame/199561/sagrada" target="_blank">Sagrada on BGG</a>
 
-For this readme, I used <a href="https://ui.dev/amiresponsive" target="_blank">AmIResponsive</a> to generate images of my page on different screen sizes.
+#### Assorted external links
+- <a href="https://ui.dev/amiresponsive" target="_blank">AmIResponsive</a> to generate images of my page on different screen sizes.
 
-To generate my favicon, I used this <a href="https://favicon.io/favicon-converter/" target="_blank">online favicon generator</a> with a <a href="https://stock.adobe.com/de/images/colorful-board-game-vector-template/222236135" target="_blank">stockimage photo</a>.
+- <a href="https://favicon.io/favicon-converter/" target="_blank">online favicon generator</a> to generate a favicon from an image file
 
-I got the colors I used in my color palette from <a href="https://colorhunt.co/palette/22283131363f76abaeeeeeee" target="_blank">Color Hunt</a>.
+- <a href="https://stock.adobe.com/de/images/colorful-board-game-vector-template/222236135" target="_blank">stockimage photo</a> for favicon
+
+- <a href="https://colorhunt.co/palette/22283131363f76abaeeeeeee" target="_blank">Color Hunt</a> to find a color palette
+
+- <a href="https://www.eddymens.com/blog/how-to-make-a-markdown-link-open-in-another-tab#:~:text=You%20just%20add%20the%20target,in%20a%20different%20browser%20tab" target="_blank">Random page</a> for the code to open links in markdown in a new page
 
 [return to Table of Contents](#toc)
