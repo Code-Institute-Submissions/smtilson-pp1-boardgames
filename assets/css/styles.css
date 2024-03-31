@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* base styles */
 * {
     padding: 0;
     margin: 0;
@@ -20,17 +21,28 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "Roboto Slab", serif;
 }
 
-/* causes everything to inherit bgc from its parent */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* causes everything to inherit colors from its parent by default */
 * * {
     background-color: inherit;
     color: inherit
 }
 
-/* header */
+/* end base styles */
+
+
+/* header styles */
 header {
     position: fixed;
     z-index: 99;
@@ -41,27 +53,20 @@ header {
     /*border-bottom: 3px solid #3a3a3a;*/
     border-bottom: 3px solid white;
 }
-
+/*
 header a {
     text-decoration: none;
     /*color: #3a3a3a;*/
-    color: white;
-}
+   /* color: white;
+}*/
 
-#nav-toggle-label {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
+/* logo styles */
 #logo-div {
     display: flex;
     flex-direction: column;
     flex-basis: 75%;
 }
 
-/* Font still needs to be chosen. */
 #logo {
     white-space: nowrap;
     text-transform: capitalize;
@@ -71,28 +76,8 @@ header a {
     flex-shrink: 1;
 }
 
-/* this overlaps when looking at specific cell phones
-    is there a way to do it with flex box? */
-#icon-div {
-    flex-basis: 20%;
-}
 
-#nav-toggle-icon {
-    font-size: 225%;
-    margin-bottom: -2.5rem;
-    align-self: center;
-    position: relative;
-    top: 32%;
-    left: 13%;
-}
-
-.active {
-    /*border: 1.5px solid #3a3a3a;*/
-    border: 1.5px solid white;
-    padding: 1px 5px;
-    border-radius: 5px;
-    margin: -1.5px;
-}
+/* navbar styles */
 
 #nav-menu {
     font-size: 110%;
@@ -104,6 +89,7 @@ header a {
     margin-bottom: .2em;
 }
 
+/* it seems this is separate in order to do some flex box things */
 nav {
     position: absolute;
     /*border-top: 3px solid #3a3a3a;
@@ -120,25 +106,55 @@ nav {
     /*background-color: #E5E4E2;*/
     background-color: black;
 }
+/* indicates which page a user is on */
+.active {
+    /*border: 1.5px solid #3a3a3a;*/
+    border: 1.5px solid white;
+    padding: 1px 5px;
+    border-radius: 5px;
+    margin: -1.5px;
+}
+/* nav toggle icon styles*/
+#nav-toggle-label {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+
+/* is there a way to address this more responsively? */
+#icon-div {
+    flex-basis: 20%;
+}
+
+#nav-toggle-icon {
+    font-size: 225%;
+    margin-bottom: -2.5rem;
+    align-self: center;
+    position: relative;
+    top: 32%;
+    left: 13%;
+}
+/* displays nav section when clicked*/
 #nav-toggle:checked~nav {
     display: block;
 }
 
+ /* hides nav section until clicked*/
 #nav-toggle {
     display: none;
 }
+
+/*end nav styles*/
+/*end header styles*/
 
 /* main */
 main {
     /* sticks footer to bottom */
     flex: 1 0 auto;
-    /*don't use vh for margin 
-      use ems instead */
     margin-top: 5em;
     margin-bottom: 4em;
-    /* why was this padding here? 
-    padding-left: .75rem;*/
     align-items: center;
 }
 
@@ -149,11 +165,11 @@ main {
     margin-top: -3.6em;
     font-size: 99%;
 }
-
+/*
 #landing-page a {
     text-decoration: none;
     color: white;
-}
+}*/
 
 #mobile-lp {
     display: flex;
@@ -315,10 +331,10 @@ main {
     margin-left: 3rem;
     margin-right: 3rem;
 }
-
+/*
 .links a {
     text-decoration: none;
-}
+}*/
 
 .links a:hover {
     /*border-bottom: 1.5px solid #3a3a3a;*/
@@ -526,7 +542,7 @@ footer {
 
     #hero3 {
         display: flex;
-        height:38em;
+        height: 38em;
     }
 
     .hero1-text1 {
@@ -644,7 +660,7 @@ footer {
         font-size: 120%;
     }
 
-/* fixes background to fit between footer and header */
+    /* fixes background to fit between footer and header */
     main {
         margin-top: 171px;
     }
