@@ -51,7 +51,7 @@ header a {
 /* name should be changed in 
 html and here to reflect that 
 they are not together anymore */
-#logo-tag-line {
+#logo-div {
     display: flex;
     flex-direction: column;
     flex-basis: 75%;
@@ -64,14 +64,6 @@ they are not together anymore */
     min-height: 1.5em;
     margin-top: .35em;
     /*margin-bottom: -.25em;*/
-    flex-shrink: 1;
-}
-
-#tag-line {
-    letter-spacing: .5px;
-    min-height: 1.5em;
-    margin-bottom: .25em;
-    margin-top: -.25em;
     flex-shrink: 1;
 }
 
