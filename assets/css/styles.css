@@ -484,8 +484,7 @@ footer {
         background: transparent;
     }
 
-    nav,
-    #social-networks {
+    nav {
         display: flex;
         position: relative;
         /* border-color: #3a3a3a;*/
@@ -545,6 +544,7 @@ footer {
     /* Landing page */
     #landing-page {
         width: 100%;
+        margin-top: -3.5em;
     }
 
     #hero1,
@@ -554,6 +554,7 @@ footer {
 
     #hero3 {
         display: flex;
+        height:34.6em;
     }
 
     .hero1-text1 {
@@ -578,6 +579,7 @@ footer {
         margin-right: 10%;
         margin-left: 10%;
         gap: 5%;
+        height: 23em;
     }
 
     .hero2-text {
@@ -598,10 +600,10 @@ footer {
     .interior-column {
         display: flex;
         flex-direction: column;
-        gap:20%;
-        height:60%
+        gap: 20%;
+        height: 6em;
     }
-        
+
     /* this lines up the top of the images in larger screens*/
     .section-content {
         display: flex;
@@ -635,9 +637,10 @@ footer {
         justify-content: center;
         background: transparent;
     }
-
     #social-networks {
         display: flex;
+        /*should this position rule be commented out*/
+        /*position: relative;*/
         /*background-color: #E5E4E2;*/
         background-color: black;
         margin: 0 1em 1em 1em;
@@ -665,11 +668,20 @@ footer {
     .content-header {
         width: 96%;
     }
-
+/* fixes background to fit between footer and header */
     #landing-page {
         font-size: 120%;
+         /* Landing page */
+        margin-top: -3em;
     }
 
+    #hero3 {
+        height:31.2em;
+    }
+
+    #hero2-content-large-screen {
+        height: 20em;
+    }
     /* this causes the container around social links to bulge
         so it is commented out until I fix the dimensions of
         #social-networks
