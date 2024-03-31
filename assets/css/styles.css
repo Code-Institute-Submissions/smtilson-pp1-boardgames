@@ -275,6 +275,7 @@ main {
 }
 
 /* content pages styling */
+/* used to on content pages as generic containers for positioning and common styling */
 .container {
     display: flex;
     justify-content: center;
