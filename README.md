@@ -121,7 +121,7 @@ The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" 
 
 - Bug: The border on active links in the navbar caused a shift in position of navbar elements.
     
-    - Fix: I fixed this by adding some negative space and changing when the extra padding was applied. Now the padding is applied to all anchor elements, not just the ones with the active class.
+   - Fix: I fixed this by adding some negative space and changing when the extra padding was applied. Now the padding is applied to all anchor elements, not just the ones with the active class. However, this still seems to happen with the mailing list page.
 
 
 - Bug: Headers on content pages were not regularly spaced.
