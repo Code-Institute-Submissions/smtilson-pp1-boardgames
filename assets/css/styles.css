@@ -80,8 +80,9 @@ header {
     list-style-type: none;
 }
 
-#nav-menu>li {
+#nav-menu a {
     margin-bottom: .2em;
+    padding: 1px 5px;
 }
 
 /* it seems this is separate in order to do some flex box things */
@@ -106,7 +107,7 @@ nav {
 .active {
     /*border: 1.5px solid #3a3a3a;*/
     border: 1.5px solid white;
-    padding: 1px 5px;
+    /*padding: 1px 5px; */
     border-radius: 5px;
     margin: -1.5px;
 }
