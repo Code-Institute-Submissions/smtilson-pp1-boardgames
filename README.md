@@ -216,6 +216,8 @@ In this <a href="https://code-institute-room.slack.com/archives/C06N62J3TKQ/p171
 
 - <a href="https://stackoverflow.com/questions/18419254/strong-tags-new-line" target="_blank">Stackoverflow: strong tags new line</a> to prevent bolding some text from starting a new line
 
+- <a href="https://stackoverflow.com/questions/41604263/how-do-i-display-local-image-in-markdown">Stackoverflow: display local image in markdown</a>
+
 #### Images
 Images for game covers:
 1. <a href="https://boardgamegeek.com/boardgame/50/lost-cities" target="_blank">Lost cities on BGG</a>
