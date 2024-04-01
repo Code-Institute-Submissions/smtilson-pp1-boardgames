@@ -194,6 +194,14 @@ main {
     display: contents;
 }
 
+.less-bold1 {
+    font-weight: 500;
+}
+
+.less-bold2 {
+
+}
+
 .position-absolute {
     position: absolute;
 }
@@ -225,9 +233,9 @@ main {
 
 /* positions cover-text for hero1 image */
 .hero1-text1 {
-    top: 4em;
-    left: 1em;
-    white-space: nowrap;
+    top: 3em;
+    align-self: center;
+    position: relative;
 }
 
 .hero1-text2 {
