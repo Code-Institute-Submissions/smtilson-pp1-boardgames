@@ -112,7 +112,7 @@ On larger screens, I had planned to have the main content of the pages scroll un
 ### Validation
 Each html file was validated using <a href="https://validator.w3.org/" target="_blank">W3html validator</a>. I had 1 error. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. I did this so that the whole header worked as a toggle for the navbar dropdown menu.
 
-The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 Jigsaw CSS validator</a>. There was a minor error which was easily fixed. There were also warnings regarding the font imports from google
+The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 Jigsaw CSS validator</a>. There were no errors. There were warnings regarding the font imports from google, which are unavoidable.
 
 ### Bugs
 - Bug: The landing page, the hover border on links caused them to visually move.
