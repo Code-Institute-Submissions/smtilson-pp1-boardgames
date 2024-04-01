@@ -117,7 +117,12 @@ The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" 
 ### Bugs
 - Bug: The landing page, the hover border on links caused them to visually move.
 
- - Fix: I fixed this by adding a margin with negative width equal to the width of the border being added. I learned this from reference [SO: hover bug](#so-hover-reference).
+   - Fix: I fixed this by adding a margin with negative width equal to the width of the border being added. I learned this from reference [SO: hover bug](#so-hover-reference).
+
+- Bug: The border on active links in the navbar caused a shift in position of navbar elements.
+    
+    - Fix: I fixed this by adding some negative space and changing when the extra padding was applied. Now the padding is applied to all anchor elements, not just the ones with the active class.
+
 
 - Bug: Headers on content pages were not regularly spaced.
 
