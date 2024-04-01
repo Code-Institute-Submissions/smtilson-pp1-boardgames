@@ -199,12 +199,13 @@ main {
 }
 
 .less-bold2 {
-
+    font-weight: 400;
 }
 
+/*
 .position-absolute {
     position: absolute;
-}
+}*/
 
 .centered-text {
     text-align: center;
@@ -236,12 +237,6 @@ main {
     top: 3em;
     align-self: center;
     position: relative;
-}
-
-.hero1-text2 {
-    bottom: 6em;
-    right: 1em;
-    font-size: 94%;
 }
 
 /* hero2 styles */
@@ -544,13 +539,8 @@ footer {
         font-size: 140%;
         position: relative;
         align-self: center;
-    }
-
-    .hero1-text2 {
-        top: 9%;
-        right: 8%;
-        font-size: 113%;
-        height: fit-content;
+        top: 4em;
+        padding:.5em;
     }
 
     /* styles the content of hero2 for larger screens*/
@@ -558,7 +548,7 @@ footer {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 44%;
+        top: 11em;
         margin-right: 10%;
         margin-left: 10%;
         height: 23em;
