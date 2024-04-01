@@ -80,8 +80,11 @@ header {
     list-style-type: none;
 }
 
-#nav-menu a {
+#nav-menu>li {
     margin-bottom: .2em;
+}
+
+#nav-menu a {
     padding: 1px 5px;
 }
 
@@ -168,7 +171,7 @@ main {
     display: flex;
     flex-direction: column;
     /* this syle needs to be addressed later */
-    background-color: rgba(34, 40, 49,0.6);
+    background-color: rgba(34, 40, 49, 0.6);
     width: 60%;
     padding: 10px;
     border-radius: 10px;
@@ -400,7 +403,7 @@ footer {
     bottom: 0;
     width: 100vw;
     z-index: 99;
-    background-color:#222831;
+    background-color: #222831;
 }
 
 /* styles element containing social links*/
@@ -426,6 +429,7 @@ footer {
     #logo-div {
         font-size: 87%;
     }
+
     #logo {
         letter-spacing: 3px;
     }
@@ -609,7 +613,7 @@ footer {
 
     /* form styles */
     #signup-form {
-        top: -3em   
+        top: -3em
     }
 
     /* footer */
@@ -633,7 +637,8 @@ footer {
         border-radius: 10px;
         justify-content: space-around;
         z-index: 99;
-        background-color: #222831;;
+        background-color: #222831;
+        ;
     }
 }
 
