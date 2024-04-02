@@ -401,8 +401,8 @@ h4 {
 /* footer */
 footer {
     position: fixed;
-    bottom: 0;
-    width: 100vw;
+    bottom: -1px;
+    width: 100%;
     z-index: 99;
     background-color: #222831;
 }
