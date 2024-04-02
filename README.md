@@ -111,7 +111,7 @@ On larger screens, I had planned to have the main content of the pages scroll un
 
 ### Lighthouse tool
 I used the Lighthouse extension to test my website. My initial score was:
-![Lighthouse results index initial](/assets/images/screenshots/lighthouse-testing-results-index-initial.png)
+![Lighthouse results index initial](/assets/images/screenshots/lighthouse-test-results-index-initial.png)
 
 My poor performance was likely due to the images not being compressed. [Daisy](#daisy-mentor), a mentor, on slack suggested a way to address this.
 
