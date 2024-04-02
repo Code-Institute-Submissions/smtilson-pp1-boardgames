@@ -110,11 +110,20 @@ I used dev tools in chrome to test the responsiveness of the site. I also used <
 On larger screens, I had planned to have the main content of the pages scroll underneath the logo, navbar, and social links while appearing above the rest of the header and footer. This caused positioning problems when transitioning between screens. The reason for this is that dev tools can not take into account the amount of space 
 
 ### Validation
-Each html file was validated using <a href="https://validator.w3.org/" target="_blank">W3html validator</a>. I had 1 error. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. I did this so that the whole header worked as a toggle for the navbar dropdown menu.
+Each html file was validated using <a href="https://validator.w3.org/" target="_blank">W3html validator</a>. <a name="label-div">I had 1 error</a>. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. My reason for putting the div inside the label element was so that the whole header would work as a toggle for the navbar dropdown menu.
 
 The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 Jigsaw CSS validator</a>. There were no errors. There were warnings regarding the font imports from google, which are unavoidable.
 
 ### Bugs
+
+- Bug: I had 1 [error](#label-div) in my html according to the validator. I had placed a div element inside of a label element.
+   
+   - Fix: I removed the div from inside the label. This did require repositioning the burger menu icon.
+
+- Bug: My form did not submit correctly (this was pointed out to me by Daisy_mentor).
+   
+   - Fix: This was fixed by changing the type of the input from button to sunmit.
+
 - Bug: The landing page, the hover border on links caused them to visually move.
 
    - Fix: I fixed this by adding a margin with negative width equal to the width of the border being added. I learned this from reference [SO: hover bug](#so-hover-reference).
@@ -123,6 +132,9 @@ The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" 
     
    - Fix: I fixed this by adding some negative space and changing when the extra padding was applied. Now the padding is applied to all anchor elements, not just the ones with the active class. However, this still seems to happen with the mailing list page.
 
+- Bug: On some larger screens, clicking on the mailing list navbar link, or on another navbar link from the mailing list page causes a shift of the navbar. I could not remove this. It also appeared intermittently and so is not clear if it was an actual bug or an artifact of something in how dev tools was displaying things. It is a minor visual bug.
+
+   - Attempted fixes: I tried adding negative padding to various navbar elements to account for padding that I thought was causing the issue.
 
 - Bug: Headers on content pages were not regularly spaced.
 
@@ -131,7 +143,7 @@ The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" 
 <a name="tutor-support-bug"></a>
 - Bug: Header and footer were cutting off part of the main element. I had styled it so that the main element scrolled beneath the navbar and social media links. This made it very hard to make it look good across different devices as I had to fiddle with the margin-top of main as well as the height of certain elements.
 
-   - Fix: I removed the fancy scrolling of the main element. Now the footer cuts off some content, which is expected behavior. This was suggested by Tutor support. So ultimately, better design was the solution.
+   - Fix: I removed the fancy scrolling of the main element. Now the footer cuts off some content, which is expected behavior. This was suggested by Tutor support. So ultimately, better design was the solution. Prior to this, there were several commits involving positioning, margins, and sizing of the header, footer, main, the hero3 div, and other elements on the landing page that were solely related to this issue.
 
 - Bug: A strong element caused text to be pushed to the next line in the Earthborne Rangers section.
 
