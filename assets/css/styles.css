@@ -319,12 +319,13 @@ main {
 .content-header {
     position: relative;
     width: 85%;
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 5px;
     margin-top: .5em;
     align-self: center;
     display: flex;
     justify-content: center;
     background-color: #222831;
+    text-align: center;
 }
 
 /* styles text boxes */
