@@ -516,6 +516,7 @@ footer {
     /* Landing page styles*/
     #landing-page {
         width: 100%;
+        margin-top: -7.6em;
         /* is this necessary */
     }
 
@@ -537,7 +538,7 @@ footer {
         font-size: 140%;
         position: relative;
         align-self: center;
-        top: 4em;
+        top: 2em;
         padding:.5em;
     }
 
@@ -546,7 +547,7 @@ footer {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 11em;
+        top: 7em;
         margin-right: 10%;
         margin-left: 10%;
         height: 23em;
