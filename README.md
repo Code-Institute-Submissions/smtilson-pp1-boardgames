@@ -109,6 +109,13 @@ I used dev tools in chrome to test the responsiveness of the site. I also used <
 
 On larger screens, I had planned to have the main content of the pages scroll underneath the logo, navbar, and social links while appearing above the rest of the header and footer. This caused positioning problems when transitioning between screens. The reason for this is that dev tools can not take into account the amount of space 
 
+### Lighthouse tool
+I used the Lighthouse extension to test my website. My initial score was:
+![Lighthouse results1](/assets/images/screenshots/lighthouse-testing-results1.png)
+
+My poor performance was likely due to the images not being compressed. [Daisy](#daisy-mentor), a mentor, on slack suggested a way to address this. 
+
+
 ### Validation
 Each html file was validated using <a href="https://validator.w3.org/" target="_blank">W3html validator</a>. <a name="label-div">I had 1 error</a>. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. My reason for putting the div inside the label element was so that the whole header would work as a toggle for the navbar dropdown menu.
 
@@ -120,7 +127,7 @@ The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" 
    
    - Fix: I removed the div from inside the label. This did require repositioning the burger menu icon.
 
-- Bug: My form did not submit correctly (this was pointed out to me by Daisy_mentor).
+- Bug: My form did not submit correctly (this was pointed out to me by [Daisy](#daisy-mentor), a mentor on slack).
    
    - Fix: This was fixed by changing the type of the input from button to sunmit.
 
@@ -204,12 +211,13 @@ In particular
 4. favicon
 
 #### Mentor
-I received a lot of support from my mentor. This took the form of helpful tips, explaining what to focus on in terms of prioritization, and which design decisions were relevant for the assessment criteria.
+I received a lot of support from my mentor. This took the form of helpful tips, explaining what to focus on in terms of prioritization, and which design decisions were relevant for the assessment criteria. He suggested having only the single h element on my landing page. He also provided me with sample readmes from previous students, these were vary helpful. For example, they made me aware of the lighthouse tool.
 
 #### Tutor Support
 I had a great deal of difficulty addressing certain responsiveness issues. Things kept on displaying differently depending on the zoom parameter on dev tools. In fact, what was happening is that the width was staying fixed but changing the zoom parameter impacted the height in pixels, and this is what was causing the change. This issue made predicting the appearance of my site very difficult, as you can not account for how much of the screen the operating system and the browser will take up (yet?). The Tutor advised that I opt for a more robust design choice to address the ambiguity, which was to remove a certain feature and opt for something simpler. As described in [this bug](#tutor-support-bug)
+
 #### Feedback on Slack
-- Daisy_mentor
+- <a name="daisy-mentor">Daisy_mentor</a>, a mentor on slack
 She pointed out to me that it would be good to decrease the size of the h1 header element on screens smaller than 360px. She also pointed out to me that my form button wasn't working. These things have been corrected for.
 
 - Fellow students

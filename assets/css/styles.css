@@ -223,7 +223,7 @@ main {
 
 /* hero1 styles */
 #hero1 {
-    background: url('../images/hero-images/hero1-img.jpg') no-repeat center center/cover;
+    background: url('../images/hero-images/tiny-hero1-img.webp') no-repeat center center/cover;
     width: 100%;
     height: 372px;
 }
@@ -238,7 +238,7 @@ main {
 
 /* hero2 styles */
 #hero2 {
-    background: url('../images/hero-images/hero2-img.jpg') no-repeat center center/cover;
+    background: url('../images/hero-images/tiny-hero2-img.webp') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,7 +276,7 @@ main {
 
 
 #hero3 {
-    background: url('../images/hero-images/hero3-img.jpg') no-repeat center center/cover;
+    background: url('../images/hero-images/tiny-hero3-img.webp') no-repeat center center/cover;
     display: none;
 }
 
