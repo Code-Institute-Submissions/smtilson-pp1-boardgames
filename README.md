@@ -117,7 +117,7 @@ My poor performance was likely due to the images not being compressed. [Daisy](#
 
 
 ### Validation
-Each html file was validated using <a href="https://validator.w3.org/" target="_blank">W3html validator</a>. <a name="label-div">I had 1 error</a>. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. My reason for putting the div inside the label element was so that the whole header would work as a toggle for the navbar dropdown menu.
+Each html file was validated using <a href="https://validator.w3.org/" target="_blank">W3html validator</a>. <a name="label-div">I had 1 error</a>. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. My reason for putting the div inside the label element was so that the whole header would work as a toggle for the navbar dropdown menu. I also had warnings regarding the use of aria labels on the landing page. I ignored these as I was following the example set by the Love Running Walkthrough project, to add aria labels to images added as background through css as no alt-tag is present when images are added this way.
 
 The CSS file was validated using <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 Jigsaw CSS validator</a>. There were no errors. There were warnings regarding the font imports from google, which are unavoidable.
 
