@@ -118,9 +118,8 @@ My poor performance was likely due to the images not being compressed. [Daisy](#
 After converting the hero images to webp format and compressing them I received the following score:
 ![Lightouse results final](/assets/images/screenshots/lighthouse-test-results-index-final.png)
 
-Here is the lighthouse test results for 2-player.html, as it is fairly representative of the other pages.
-
-
+Here is the lighthouse test results for 2-player.html, as it is fairly representative of the other pages:
+![lighthouse results 2-player](/assets/images/screenshots/Lighthouse-test-results-2-player.png)
 
 ### Validation
 Each html file was validated using <a href="https://validator.w3.org/" target="_blank">W3html validator</a>. <a name="label-div">I had 1 error</a>. I had wrapped one of the divs in the header in the label which controls the dropdown nav in mobile. This is frowned upon, so I removed it. My reason for putting the div inside the label element was so that the whole header would work as a toggle for the navbar dropdown menu. I also had warnings regarding the use of aria labels on the landing page. I ignored these as I was following the example set by the Love Running Walkthrough project, to add aria labels to images added as background through css as no alt-tag is present when images are added this way.
