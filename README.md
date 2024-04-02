@@ -113,7 +113,14 @@ On larger screens, I had planned to have the main content of the pages scroll un
 I used the Lighthouse extension to test my website. My initial score was:
 ![Lighthouse results1](/assets/images/screenshots/lighthouse-testing-results1.png)
 
-My poor performance was likely due to the images not being compressed. [Daisy](#daisy-mentor), a mentor, on slack suggested a way to address this. 
+My poor performance was likely due to the images not being compressed. [Daisy](#daisy-mentor), a mentor, on slack suggested a way to address this.
+
+After converting the hero images to webp format and compressing them I received the following score:
+![Lightouse results 2](/assets/images/screenshots/lighthouse-test-results2.png)
+
+I then replaced all of the gamebox cover with compressed versions and received the following score:
+![Lighthouse results 3](/assets/images/screenshots/lighthouse-test-results3.png)
+
 
 
 ### Validation
