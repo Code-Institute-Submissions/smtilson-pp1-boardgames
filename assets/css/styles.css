@@ -185,6 +185,7 @@ main {
     width: 100%;
     display: flex;
     position: relative;
+    justify-content: center;
 }
 
 /* utility classes */
@@ -201,11 +202,6 @@ main {
 .less-bold2 {
     font-weight: 400;
 }
-
-/*
-.position-absolute {
-    position: absolute;
-}*/
 
 .centered-text {
     text-align: center;
@@ -233,10 +229,11 @@ main {
 }
 
 /* positions cover-text for hero1 image */
-.hero1-text1 {
+.hero1-text {
     top: 3em;
     align-self: center;
     position: relative;
+    width:87%;
 }
 
 /* hero2 styles */
@@ -536,7 +533,7 @@ footer {
     }
 
     /* position adjustments for hero1 text on larger screens */
-    .hero1-text1 {
+    .hero1-text {
         font-size: 140%;
         position: relative;
         align-self: center;
