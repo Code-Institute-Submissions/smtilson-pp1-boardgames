@@ -37,7 +37,6 @@ a {
     background-color: inherit;
     color: inherit
 }
-
 /* end base styles */
 
 
@@ -72,7 +71,6 @@ header {
 
 
 /* navbar styles */
-
 #nav-menu {
     font-size: 109%;
     letter-spacing: 1.5px;
@@ -113,7 +111,7 @@ nav {
     margin: -1.5px;
 }
 
-/* nav toggle icon styles*/
+/* nav toggle icon styles */
 #nav-toggle-label {
     width: 100vw;
     display: flex;
@@ -144,8 +142,7 @@ nav {
 #nav-toggle {
     display: none;
 }
-
-/* end header styles*/
+/* end header styles */
 
 
 /* main */
@@ -210,8 +207,7 @@ main {
     background: transparent;
 }
 
-/* mobile landing page styles*/
-
+/* mobile landing page styles */
 /* orients mobile landing page container*/
 #mobile-lp {
     display: flex;
@@ -342,7 +338,6 @@ main {
     margin-right: 3rem;
     background-color: #222831;
 }
-
 /* end content page styles */
 
 
@@ -389,7 +384,6 @@ h4 {
 .text-field {
     margin-top: 10px;
 }
-
 /* end form styles */
 
 
@@ -491,8 +485,7 @@ footer {
     #icon-div {
         display: none;
     }
-
-    /* end header styles*/
+    /* end header styles */
 
 
     /* main content */
@@ -503,7 +496,7 @@ footer {
         justify-content: center;
     }
 
-    /* Landing page styles*/
+    /* Landing page styles */
     #landing-page {
         width: 100%;
         margin-top: -7.6em;
@@ -564,7 +557,6 @@ footer {
         gap: 20%;
         height: 6em;
     }
-
     /* end landing page styles */
 
 
@@ -595,7 +587,6 @@ footer {
         margin-right: 2rem;
         gap: 15px;
     }
-
     /* end of content page styles */
 
 
