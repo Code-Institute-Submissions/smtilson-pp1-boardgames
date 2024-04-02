@@ -264,6 +264,12 @@ Images for game covers:
 
 - <a href="https://colorhunt.co/palette/22283131363f76abaeeeeeee" target="_blank">Color Hunt</a> to find a color palette
 
-- <a href="https://www.eddymens.com/blog/how-to-make-a-markdown-link-open-in-another-tab#:~:text=You%20just%20add%20the%20target,in%20a%20different%20browser%20tab" target="_blank">Random page</a> for the code to open links in markdown in a new page
+- <a href="https://www.eddymens.com/blog/how-to-make-a-markdown-link-open-in-another-tab#:~:text=You%20just%20add%20the%20target,in%20a%20different%20browser%20tab" target="_blank">Eddy Times page</a> for the code to open links in markdown in a new page
+
+- <a href="https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk" target="_blank">Lighthouse chrome extension</a> for testing
+
+- <a href="https://cloudconvert.com/jpg-to-webp" target="_blank">Cloud Convert</a> to convert jpegs to webp.
+
+- <a href="https://tinyjpg.com/" target="_blank">Tinyjpg</a> to to compress images.
 
 [return to Table of Contents](#toc)
