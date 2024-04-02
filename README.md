@@ -21,7 +21,7 @@
 This site is a collection of recommendations for different boardgames and cardgames for people new to the hobby. There are pages devoted to 2 player games, games for new players, and the authors personal favorite games. Information on specific games is accompanied by links to relevant external sites. 
 
 ### Project Purpose
-The purpose of the site is to inform people new to the hobby about different games they may not be aware of. Not every game suits every person/group of players, and the site aims to help people make informed choices. Hundreds of new boardgames are released every year as the hobby and market grows. Providing information about games for different audiences is a valuable endeavor as the hobby can be expensive and time consuming.
+The purpose of the site is to inform people new to the boardgaming hobby about different games they may not be aware of. Not every game suits every person/group of players, and the site aims to help people make informed choices. Hundreds of new boardgames are released every year. Providing information about games for different audiences is a valuable endeavor as the hobby can be expensive and time consuming.
 
 ### User Demographics
 The expected user is someone who has some experience with hobby boardgames and cardgames. They are interested in trying new games and determining what they do and do not like.
@@ -55,7 +55,7 @@ Mobile:
 I kept some of the ideas present and elaborated on them.
 
 ### Future directions
-The site does not have information on that many games, but the design is such that it can be extended to include details of many other games.
+The site does not have information on that many games, but the design is such that I can extend it to include details of many other games.
 
 [return to Table of Contents](#toc)
 
